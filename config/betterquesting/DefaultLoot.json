@@ -1,0 +1,572 @@
+{
+  "groups:9": {
+    "0:10": {
+      "name:8": "Common",
+      "weight:3": 90,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 128
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:baked_potato",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:carrot",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "bibliocraft:typesettingtable",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:dye",
+              "Count:3": 8,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "2:10": {
+              "id:8": "bibliocraft:printingpress",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:record_13",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:jukebox",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:lava_bucket",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:water_bucket",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "botania:blacklotus",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:bow",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "1:10": {
+              "id:8": "minecraft:arrow",
+              "Count:3": 32,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "name:8": "Uncommon",
+      "weight:3": 65,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:skull",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 2
+            },
+            "1:10": {
+              "id:8": "minecraft:skull",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "solarfluxreborn:solar0",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "botania:specialflower",
+              "Count:3": 1,
+              "tag:10": {
+                "type:8": "orechid"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "betterbuilderswands:wanddiamond",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:liquid_compressor",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:anvil",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermalexpansion:florb",
+              "Count:3": 1,
+              "tag:10": {
+                "Fluid:8": "sewage"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "7:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:beacon",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "2:10": {
+      "name:8": "Rare",
+      "weight:3": 40,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "scalinghealth:heartcontainer",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:diamond_horse_armor",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "solarfluxreborn:solar1",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "rftoolsdim:dimlet_parcel",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "extraplanets:apple_diamond",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:printed_circuit_board",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "pneumaticcraft:plastic",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 2
+            },
+            "1:10": {
+              "id:8": "pneumaticcraft:plastic",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 8
+            },
+            "2:10": {
+              "id:8": "pneumaticcraft:plastic",
+              "Count:3": 4,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "3:10": {
+      "name:8": "Unique",
+      "weight:3": 20,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "mysticalagriculture:growth_accelerator",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "extraplanets:apple_diamond",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 1
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "botania:lens",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "1:10": {
+              "id:8": "botania:lens",
+              "Count:3": 1,
+              "tag:10": {},
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "draconicevolution:magnet",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "4:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "enderio:item_alloy_ingot",
+              "Count:3": 32,
+              "OreDict:8": "",
+              "Damage:3": 2
+            }
+          }
+        },
+        "5:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 50
+            }
+          }
+        },
+        "6:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermalexpansion:augment",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 128
+            },
+            "1:10": {
+              "id:8": "thermalexpansion:augment",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 129
+            },
+            "2:10": {
+              "id:8": "thermalexpansion:augment",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 130
+            }
+          }
+        }
+      }
+    },
+    "4:10": {
+      "name:8": "Legendary",
+      "weight:3": 9,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "solarfluxreborn:solar2",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "extrautils2:ingredients",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 17
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:nether_star",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "portalgun:item_portalgun",
+              "Count:3": 1,
+              "tag:10": {
+                "lastFired:1": 1,
+                "width:3": 1,
+                "channelName:8": "P-body",
+                "grabStrength:3": 4,
+                "uuid:8": "Global",
+                "username:8": "Global",
+                "height:3": 2
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "5:10": {
+      "name:8": "Forbidden",
+      "weight:3": 6,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 3,
+          "items:9": {
+            "0:10": {
+              "id:8": "scalinghealth:heartcontainer",
+              "Count:3": 3,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "avaritia:skullfire_sword",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "karatgarden:item_carrot_w_ultimate",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "redstonearsenal:armor.plate_flux",
+              "Count:3": 1,
+              "tag:10": {
+                "Energy:3": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    },
+    "6:10": {
+      "name:8": "Extended",
+      "weight:3": 3,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:paper",
+              "Count:3": 1,
+              "tag:10": {
+                "display:10": {
+                  "Name:8": "Placeholder for Legendary Item"
+                }
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

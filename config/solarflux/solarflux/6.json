@@ -1,0 +1,6 @@
+{
+	"capacity": 32000000,
+	"generation": 32768,
+	"transfer": 131072,
+	"connected_textures": true
+}

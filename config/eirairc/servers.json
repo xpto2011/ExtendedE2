@@ -1,0 +1,20 @@
+[
+  {
+    "address": "irc.twitch.tv",
+    "nick": "xpto2012",
+    "bot": {
+      "messageFormat": "Twitch",
+      "relayIRCJoinLeave": false
+    },
+    "theme": {},
+    "settings": {},
+    "channels": [
+      {
+        "name": "#xpto2012",
+        "bot": {},
+        "theme": {},
+        "settings": {}
+      }
+    ]
+  }
+]
