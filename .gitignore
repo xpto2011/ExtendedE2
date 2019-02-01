@@ -9,6 +9,7 @@ libraries/
 saves/
 TombManyGraves/
 screenshots/
+shaderpacks/
 mods/
 valkyrielib/
 
@@ -21,7 +22,7 @@ modpackinfo.json
 *.lnk
 Launcher.bat
 excludes.txt
-configCreator.bat
+ConfigCreator.bat
 
 # Client Configs
 zs_export.json
@@ -65,3 +66,7 @@ eula.txt
 banned-players.json
 banned-ips.json
 world/
+
+#remove questbook
+config/betterquesting/DefaultLoot.json
+config/betterquesting/DefaultQuests.json
