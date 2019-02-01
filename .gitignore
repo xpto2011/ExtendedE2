@@ -52,6 +52,7 @@ config/AppliedEnergistics2/aerecipes/
 config/AppliedEnergistics2/recipes/
 config/AppliedEnergistics2/items.csv
 config/AppliedEnergistics2/VersionChecker.cfg
+config/AppliedEnergistics2/CustomRecipes.cfg
 valkyrielib/cache/supporters.json
 config/brandon3055/ResourceCache/
 
