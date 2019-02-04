@@ -12,6 +12,8 @@ screenshots/
 shaderpacks/
 mods/
 valkyrielib/
+structures/
+schematics/
 
 # Utilities
 CommonFunctions.dll
@@ -55,6 +57,8 @@ config/AppliedEnergistics2/VersionChecker.cfg
 config/AppliedEnergistics2/CustomRecipes.cfg
 valkyrielib/cache/supporters.json
 config/brandon3055/ResourceCache/
+config/tool_progression/blocks.cfg
+config/tool_progression/tools.cfg
 
 #server
 server.properties
