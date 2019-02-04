@@ -45,10 +45,11 @@ recipes.addShaped(<draconicevolution:awakened_core>, [
 	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>], 
 	[<draconicevolution:wyvern_core>, <minecraft:nether_star>, <draconicevolution:wyvern_core>], 
 	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>]]);
-#recipes.addShaped(<draconicevolution:draconic_core>, [
-#	[<ore:ingotDraconium>, <ore:ingotTitanium>, <ore:ingotDraconium>], 
-#	[<ore:ingotTitanium>, <ore:gemBlueGem>, <ore:ingotTitanium>], 
-#	[<ore:ingotDraconium>,<ore:ingotTitanium>, <ore:ingotDraconium>]]);
+#efab
+recipes.addShaped(<draconicevolution:draconic_core>, [
+	[<ore:ingotDraconium>, <ore:ingotTitanium>, <ore:ingotDraconium>], 
+	[<ore:ingotTitanium>, <ore:gemBlueGem>, <ore:ingotTitanium>], 
+	[<ore:ingotDraconium>,<ore:ingotTitanium>, <ore:ingotDraconium>]]);
 recipes.addShaped(<draconicevolution:wyvern_core>, [
 	[<ore:ingotThaumium>, <draconicevolution:draconic_core>, <ore:ingotDraconium>], 
 	[<draconicevolution:draconic_core>, <ore:itemNetherStar>, <draconicevolution:draconic_core>], 

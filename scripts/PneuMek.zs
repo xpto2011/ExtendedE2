@@ -7,7 +7,8 @@ mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:capacitor>]);
 
 mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:plastic:6>, <ore:ingotRedstoneAlloy>], 2, [<pneumaticcraft:transistor>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:plastic:8>, <enderio:item_basic_capacitor:2>], 2, [<pneumaticcraft:capacitor>]);
-#Denses
+
+#Denses -> Needs to be moved to another machine. Most probably the Implosion Compressor for TechReborn
 mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:redstone_ore> * 5], 3, [<excore:dense_redstone>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:iron_ore> * 5], 3, [<excore:dense_iron>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:coal_ore> * 5], 3, [<excore:dense_coal>]);
@@ -41,7 +42,7 @@ recipes.remove(<mekanism:machineblock:8>);
 recipes.remove(<mekanism:machineblock:10>);
 recipes.remove(<mekanism:teleportationcore>);
 
-recipes.remove(<mekanism:machineblock:4>);
+#recipes.remove(<mekanism:machineblock:4>); #efab
 
 #Add crafting
 recipes.addShaped(<mekanism:energytablet>, [

@@ -6,7 +6,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <en
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:1>, <enderio:item_material>, <forestry:chipsets:2>, 4600);
 
 #Remove enchanter (to the efab)
-recipes.remove(<enderio:block_enchanter>);
+#recipes.remove(<enderio:block_enchanter>);
 
 #Change Simple Machine Casing
 recipes.remove(<enderio:item_material>);
@@ -120,9 +120,9 @@ recipes.addShaped(<enderio:item_material:10>, [
 	[<minecraft:cobblestone>, <enderio:item_material:9>, <minecraft:cobblestone>],
 	[null, <minecraft:cobblestone>, null]]);
 	
-#Remove Frames
-recipes.remove(<thermalexpansion:frame>);
-recipes.remove(<thermalexpansion:frame:64>);
+#Remove Frames (efab)
+#recipes.remove(<thermalexpansion:frame>);
+#recipes.remove(<thermalexpansion:frame:64>);
 
 #Change Upgrade Kits
 recipes.remove(<thermalfoundation:upgrade>);

@@ -7,7 +7,7 @@ recipes.remove(<rftools:crafter3>);
 recipes.remove(<rftools:crafter2>);
 recipes.remove(<rftools:crafter1>);
 recipes.remove(<rftools:dialing_device>);
-recipes.remove(<rftoolsdim:dimension_builder>);
+#recipes.remove(<rftoolsdim:dimension_builder>); #efab
 recipes.remove(<rftoolsdim:dimension_enscriber>);
 recipes.remove(<rftools:spawner>);
 recipes.remove(<rftools:matter_transmitter>);

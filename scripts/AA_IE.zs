@@ -80,7 +80,8 @@ recipes.addShaped(<actuallyadditions:block_misc:9>, [
 
 
 #Immersive Engeneering
-recipes.remove(<immersiveengineering:treated_wood>);
+#efab
+#recipes.remove(<immersiveengineering:treated_wood>);
 
 recipes.remove(<immersiveengineering:metal_device1:2>);
 recipes.addShaped(<immersiveengineering:metal_device1:2>, [
@@ -131,5 +132,5 @@ recipes.addShapeless(<immersiveengineering:material:21>, [<ore:ingotElectrum>, <
 recipes.addShapeless(<immersiveengineering:material:22>, [<ore:ingotAluminum>, <immersiveengineering:tool:1>.reuse()]);
 recipes.addShapeless(<immersiveengineering:material:23>, [<ore:ingotSteel>, <immersiveengineering:tool:1>.reuse()]);
 
-#Forestry
-recipes.remove(<forestry:sturdy_machine>);
+#Forestry (efab)
+#recipes.remove(<forestry:sturdy_machine>);

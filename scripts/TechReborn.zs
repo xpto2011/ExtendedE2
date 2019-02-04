@@ -6,8 +6,6 @@
 #remove recipes
 recipes.remove(<techreborn:machine_frame>);
 recipes.remove(<techreborn:machine_frame:1>);
-recipes.remove(<techreborn:part:29>);
-recipes.remove(<techreborn:part:30>);
 recipes.remove(<techreborn:grinder>);
 recipes.remove(<techreborn:electric_furnace>);
 #recipes.remove(<techreborn:solid_fuel_generator>);
@@ -19,9 +17,12 @@ recipes.remove(<techreborn:solar_panel:2>);
 recipes.remove(<techreborn:solar_panel:3>);
 recipes.remove(<techreborn:solar_panel:4>);
 
-recipes.remove(<techreborn:cable:5>);
-recipes.remove(<techreborn:cable:6>);
-recipes.remove(<techreborn:cable:7>);
+#efab
+#recipes.remove(<techreborn:cable:5>);
+#recipes.remove(<techreborn:cable:6>);
+#recipes.remove(<techreborn:cable:7>);
+#recipes.remove(<techreborn:part:29>);
+#recipes.remove(<techreborn:part:30>);
 
 recipes.remove(<techreborn:energycrystal>);
 

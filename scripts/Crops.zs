@@ -148,7 +148,7 @@ recipes.remove(<mysticalagriculture:crafting:19>);
 recipes.remove(<mysticalagriculture:crafting:20>);
 recipes.remove(<mysticalagriculture:crafting:21>);
 recipes.remove(<mysticalagradditions:tier6_inferium_seeds>);
-recipes.remove(<mysticalagradditions:insanium:1>);
+#recipes.remove(<mysticalagradditions:insanium:1>); #(efab)
 recipes.remove(<mysticalagriculture:ultimate_furnace>);
 
 recipes.removeShapeless(<mysticalagriculture:crafting> * 4, [<mysticalagriculture:crafting:1>]);
@@ -267,19 +267,19 @@ recipes.remove(<mysticalagradditions:insanium>);
 recipes.addShaped(<mysticalagradditions:insanium>, [[null, <mysticalagriculture:crafting:4>, null], [<mysticalagriculture:crafting:4>, <mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:crafting:4>], [null, <mysticalagriculture:crafting:4>, null]]);
 
 #Imaginary Time Block
-mods.jei.JEI.removeAndHide(<tp:growth_block>);
-mods.jei.JEI.removeAndHide(<tp:growth_upgrade>);
+#mods.jei.JEI.removeAndHide(<tp:growth_block>);
+#mods.jei.JEI.removeAndHide(<tp:growth_upgrade>);
 recipes.remove(<mysticalagriculture:growth_accelerator>);
-recipes.remove(<tp:growth_upgrade_two>);
+#recipes.remove(<tp:growth_upgrade_two>);
 
-<tp:growth_upgrade_two>.displayName = "Imaginary Time Block";
+#<tp:growth_upgrade_two>.displayName = "Imaginary Time Block";
 
 recipes.addShaped(<mysticalagriculture:growth_accelerator>, [
 	[<mysticalagriculture:crafting:36>, <ore:ingotTitanium>, <mysticalagriculture:crafting:36>], 
 	[<ore:ingotTitanium>, <techreborn:part>, <ore:ingotTitanium>],
 	[<mysticalagriculture:crafting:36>, <ore:ingotTitanium>, <mysticalagriculture:crafting:36>]]);
 
-recipes.addShaped(<tp:growth_upgrade_two>, [
-	[<mysticalagriculture:growth_accelerator>, <forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}), <mysticalagriculture:growth_accelerator>], 
-	[<mysticalagradditions:storage>, <techreborn:lapotronicorb>, <mysticalagradditions:storage>],
-	[<mysticalagriculture:growth_accelerator>, <draconicevolution:draconic_core>, <mysticalagriculture:growth_accelerator>]]);
+#recipes.addShaped(<tp:growth_upgrade_two>, [
+#	[<mysticalagriculture:growth_accelerator>, <forge:bucketfilled>.withTag({FluidName: "liquid_sunshine", Amount: 1000}), <mysticalagriculture:growth_accelerator>], 
+#	[<mysticalagradditions:storage>, <techreborn:lapotronicorb>, <mysticalagradditions:storage>],
+#	[<mysticalagriculture:growth_accelerator>, <draconicevolution:draconic_core>, <mysticalagriculture:growth_accelerator>]]);

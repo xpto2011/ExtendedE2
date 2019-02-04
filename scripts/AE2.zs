@@ -36,7 +36,8 @@ recipes.remove(<appliedenergistics2:energy_acceptor>);
 recipes.remove(<appliedenergistics2:controller>);
 
 #Presses (AE2 Inscriber sucks, no it really sucks)
-#AE2 Recipe system is actual cancers
+#AE2 Recipe system is actual cancer
+#efab
 mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:15>, [[<minecraft:iron_ingot>], [<minecraft:gold_block>], [<minecraft:iron_ingot>]]);
 mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:19>, [[<minecraft:iron_ingot>], [<refinedstorage:silicon>], [<minecraft:iron_ingot>]]);
 mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:13>, [[<minecraft:iron_ingot>], [<appliedenergistics2:quartz_block>], [<minecraft:iron_ingot>]]);
@@ -75,10 +76,10 @@ recipes.addShaped(<appliedenergistics2:energy_acceptor>, [
 	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <appliedenergistics2:material:24>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
 	[<ore:crystalPureFluix>, <thermalexpansion:frame>, <ore:crystalPureFluix>], 
 	[<ore:crystalOsmium>, <ore:plateCopper>, <ore:crystalOsmium>]]);
-#recipes.addShaped(<appliedenergistics2:controller>, [
-#	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <appliedenergistics2:material:24>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
-#	[<ore:crystalPureFluix>, <thermalexpansion:frame>, <ore:crystalPureFluix>], 
-#	[<ore:crystalOsmium>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>]]);
+recipes.addShaped(<appliedenergistics2:controller>, [
+	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <appliedenergistics2:material:24>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
+	[<ore:crystalPureFluix>, <thermalexpansion:frame>, <ore:crystalPureFluix>], 
+	[<ore:crystalOsmium>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>]]);
 
 recipes.addShaped(<extracells:part.base:7>, [[<appliedenergistics2:drive>, <appliedenergistics2:material:43>, <appliedenergistics2:material:44>]]);
 recipes.addShaped(<appliedenergistics2:material:44> * 2, [[<appliedenergistics2:material:11>, <appliedenergistics2:material:9>, <appliedenergistics2:material:22>]]);

@@ -1,19 +1,20 @@
 #Extended Extreme Modpack (EX^2)
 #Crafted by xpto2011
 
-recipes.remove(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket> * 64, [[<stevescarts:blockmetalstorage:2>, null, <stevescarts:blockmetalstorage:2>], [null, <stevescarts:blockmetalstorage:2>, null]]);
+#recipes.remove(<minecraft:bucket>); (efab)
+#recipes.addShaped(<minecraft:bucket> * 64, [[<stevescarts:blockmetalstorage:2>, null, <stevescarts:blockmetalstorage:2>], [null, #<stevescarts:blockmetalstorage:2>, null]]);
 
-recipes.remove(<minecraft:iron_shovel>);
-recipes.remove(<minecraft:iron_pickaxe>);
-recipes.remove(<minecraft:iron_axe>);
-recipes.remove(<minecraft:iron_sword>);
-recipes.remove(<minecraft:diamond_sword>);
-recipes.remove(<minecraft:diamond_shovel>);
-recipes.remove(<minecraft:diamond_pickaxe>);
-recipes.remove(<minecraft:diamond_axe>);
-recipes.remove(<minecraft:iron_hoe>);
-recipes.remove(<minecraft:diamond_hoe>);
+#efab
+#recipes.remove(<minecraft:iron_shovel>);
+#recipes.remove(<minecraft:iron_pickaxe>);
+#recipes.remove(<minecraft:iron_axe>);
+#recipes.remove(<minecraft:iron_sword>);
+#recipes.remove(<minecraft:diamond_sword>);
+#recipes.remove(<minecraft:diamond_shovel>);
+#recipes.remove(<minecraft:diamond_pickaxe>);
+#recipes.remove(<minecraft:diamond_axe>);
+#recipes.remove(<minecraft:iron_hoe>);
+#recipes.remove(<minecraft:diamond_hoe>);
 
 #add wheat to seed recipes
 recipes.addShapeless(<minecraft:wheat_seeds>, [<minecraft:wheat>]);
@@ -41,12 +42,12 @@ recipes.addShaped(<thermalfoundation:storage:5>, [
 	[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>],
 	[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>]]);
 	
-recipes.remove(<erebus:silk>);
-recipes.remove(<extraplanets:tools:2>);
-recipes.addShaped(<extraplanets:tools:2>, [
-	[<minecraft:string>, null, <minecraft:string>],
-	[<minecraft:string>, <minecraft:string>, <minecraft:string>],
-	[<minecraft:string>, null, <minecraft:string>]]);
+#recipes.remove(<erebus:silk>);
+#recipes.remove(<extraplanets:tools:2>);
+#recipes.addShaped(<extraplanets:tools:2>, [
+#	[<minecraft:string>, null, <minecraft:string>],
+#	[<minecraft:string>, <minecraft:string>, <minecraft:string>],
+#	[<minecraft:string>, null, <minecraft:string>]]);
 	
 #Early Game Wood Nerfs
 #These recipes were made by the FTB Team
@@ -95,8 +96,9 @@ recipes.addShaped(<minecraft:hopper>, [[<ore:plateIron>, null, <ore:plateIron>],
 recipes.remove(<minecraft:anvil>);
 recipes.addShaped(<minecraft:anvil>, [[<ore:blockIron>, <ore:blockIron>, <ore:blockIron>], [null, <ore:plateIron>, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
-recipes.remove(<enderstorage:ender_storage>);
-recipes.remove(<enderstorage:ender_storage:1>);
+#efab
+#recipes.remove(<enderstorage:ender_storage>);
+#recipes.remove(<enderstorage:ender_storage:1>);
 
 #Fix Quartz Nuggets -> Quartz
 #recipes.remove(<ore:nuggetQuartz>);
