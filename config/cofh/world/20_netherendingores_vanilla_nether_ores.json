@@ -1,0 +1,186 @@
+{
+	"dependencies": "netherendingores",
+	"populate": {
+		"nether-coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "netherendingores:ore_nether_vanilla",
+					"weight": 92
+				},{
+					"name": "excore:dense_ncoal",
+					"weight": 8
+				}],
+				"material": "minecraft:netherrack",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 1,
+					"weight": 92
+				},{
+					"name": "excore:dense_ndiamond",
+					"weight": 8
+				}],
+				"material": "minecraft:netherrack",
+				"cluster-size": 2
+			},
+			"cluster-count": 2,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 2,
+					"weight": 92
+				},{
+					"name": "excore:dense_nemerald",
+					"weight": 8
+				}],
+				"material": "minecraft:netherrack",
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 3,
+					"weight": 92
+				},{
+					"name": "excore:dense_ngold",
+					"weight": 8
+				}],
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 4,
+					"weight": 92
+				},{
+					"name": "excore:dense_niron",
+					"weight": 8
+				}],
+				"material": "minecraft:netherrack",
+				"cluster-size": 6
+			},
+			"cluster-count": 9,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-lapis": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 5,
+					"weight": 92
+				},{
+					"name": "excore:dense_nlapis",
+					"weight": 8
+				}],
+				"material": "minecraft:netherrack",
+				"cluster-size": 4
+			},
+			"cluster-count": 3,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		},
+		"nether-redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "netherendingores:ore_nether_vanilla",
+					"metadata": 6,
+					"weight": 92
+				},{
+					"name": "excore:dense_nredstone",
+					"weight": 8
+				}],
+				"material": "minecraft:netherrack",
+				"cluster-size": 6
+			},
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-1
+				]
+			}
+		}
+	}
+}

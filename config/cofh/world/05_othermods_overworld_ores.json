@@ -1,0 +1,210 @@
+{
+	"populate": {
+		"bauxitealum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{"name": "thermalfoundation:ore", "metadata": 4, "weight":20},
+					{"name": "techreborn:ore", "metadata": 4, "weight":68},
+					{"name": "excore:dense_aluminum", "weight":5},
+					{"name": "excore:dense_bauxite", "weight":7}
+				],
+				"material": "stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 6,
+			"min-height": 48,
+			"max-height": 72,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "immersiveengineering:ore",
+					"metadata": 5, "weight": 92
+				},{
+					"name": "excore:dense_uranium",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 5,
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"certus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{"name": "appliedenergistics2:quartz_ore", "weight":87},
+					{"name": "appliedenergistics2:charged_quartz_ore", "weight":5},
+					{"name": "excore:dense_cquartz", "weight":7},
+					{"name": "excore:dense_ccquartz", "weight":1}
+				],
+				"material": "stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 6,
+			"min-height": 24,
+			"max-height": 56,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "techreborn:ore",
+					"metadata": 2, "weight": 92
+				},{
+					"name": "excore:dense_ruby",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "techreborn:ore",
+					"metadata": 3, "weight": 92
+				},{
+					"name": "excore:dense_sapphire",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "thermalfoundation:ore",
+					"metadata": 7, "weight": 92
+				},{
+					"name": "excore:dense_iridium",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"min-height": 8,
+			"max-height": 24,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "thermalfoundation:ore",
+					"metadata": 6, "weight": 92
+				},{
+					"name": "excore:dense_platinum",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+		"manainfused": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "thermalfoundation:ore",
+					"metadata": 8, "weight": 92
+				},{
+					"name": "excore:dense_mithril",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"min-height": 4,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

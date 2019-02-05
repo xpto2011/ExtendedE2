@@ -78,14 +78,14 @@ recipes.addShaped(<bigreactors:reactorglass>, [
 	[null, null, null]]);
 	
 #Tinkers Construct
-mods.tconstruct.Fuel.registerFuel(<liquid:fuel>, 60000);
-mods.tconstruct.Fuel.registerFuel(<liquid:rocket_fuel>, 60000);
-mods.tconstruct.Fuel.registerFuel(<liquid:diesel>, 60000);
-
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <enderio:item_material:10>, <liquid:alubrass>, 144, true, 2);
-
-
-<ticmat:refinedglowstone>.attackHead = 14;
+#mods.tconstruct.Fuel.registerFuel(<liquid:fuel>, 60000);
+#mods.tconstruct.Fuel.registerFuel(<liquid:rocket_fuel>, 60000);
+#mods.tconstruct.Fuel.registerFuel(<liquid:diesel>, 60000);
+#
+#mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <enderio:item_material:10>, <liquid:alubrass>, 144, true, 2);
+#
+#
+#<ticmat:refinedglowstone>.attackHead = 14;
 
 #Mining World (Rewarded somewhere)
 recipes.remove(<aroma1997sdimension:portaligniter>);
