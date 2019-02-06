@@ -10,9 +10,9 @@
   <capacitor key="enderio:block_alloy_smelter/buffer" base="1000000" scaler="QUADRATIC" />
   <capacitor key="enderio:block_alloy_smelter/use" base="400" scaler="QUADRATIC" />
 
-  <capacitor key="enderio:block_enhanced_alloy_smelter/intake" base="1800" scaler="CUBIC" />
-  <capacitor key="enderio:block_enhanced_alloy_smelter/buffer" base="2000000" scaler="CUBIC" />
-  <capacitor key="enderio:block_enhanced_alloy_smelter/use" base="800" scaler="CUBIC" />
+  <capacitor key="enderio:block_enhanced_alloy_smelter/intake" base="1800" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_alloy_smelter/buffer" base="2000000" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_alloy_smelter/use" base="800" scaler="QUADRATIC" />
   <capacitor key="enderio:block_enhanced_alloy_smelter/efficiency" base="150" scaler="CENT" />
   <capacitor key="enderio:block_enhanced_alloy_smelter/double_op_chance" base="1" scaler="QUADRATIC" />
   
@@ -120,9 +120,9 @@
   <capacitor key="enderio:block_simple_sag_mill/use" base="200" scaler="FIXED" />
   <capacitor key="enderio:block_simple_sag_mill/loss" base="5" scaler="CENT" />
 
-  <capacitor key="enderio:block_enhanced_sag_mill/intake" base="20000" scaler="CUBIC" />
-  <capacitor key="enderio:block_enhanced_sag_mill/buffer" base="500000" scaler="CUBIC" />
-  <capacitor key="enderio:block_enhanced_sag_mill/use" base="1280" scaler="CUBIC" />
+  <capacitor key="enderio:block_enhanced_sag_mill/intake" base="20000" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_sag_mill/buffer" base="500000" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_sag_mill/use" base="1280" scaler="QUADRATIC" />
   <capacitor key="enderio:block_enhanced_sag_mill/efficiency" base="150" scaler="CENT" />
   <capacitor key="enderio:block_enhanced_sag_mill/double_op_chance" base="1" scaler="QUADRATIC" />
   
