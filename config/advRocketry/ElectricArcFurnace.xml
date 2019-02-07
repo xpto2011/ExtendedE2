@@ -24,7 +24,7 @@
 	<Recipe timeRequired="9000" power ="20">
 		<input>
 			<itemStack>thermalfoundation:material 7 132</itemStack>
-			<itemStack>libvulpes:productingot 3 7</itemStack>
+			<itemStack>techreborn:ingot 3 14</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:productingot 3</itemStack>
@@ -37,10 +37,12 @@
 		</input>
 		<output>
 			<itemStack>thermalfoundation:material 1 160</itemStack>
+			<itemStack>techreborn:ingot 1 12</itemStack>
+			<itemStack>railcraft:ingot</itemStack>
 			<itemStack>libvulpes:productingot 1 6</itemStack>
 			<itemStack>mekanism:ingot 1 4</itemStack>
 			<itemStack>immersiveengineering:metal 1 8</itemStack>
-			<itemStack>bigreactors:ingotmetals 1 5</itemStack>
+			<itemStack>bigreactors:ingotsteel</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="12000" power ="1">
@@ -54,7 +56,7 @@
 	<Recipe timeRequired="3000" power ="20">
 		<input>
 			<itemStack>thermalfoundation:material 1 135</itemStack>
-			<itemStack>libvulpes:productingot 1 7</itemStack>
+			<itemStack>techreborn:ingot 1 14</itemStack>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:productingot 2 1</itemStack>
