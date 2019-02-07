@@ -170,7 +170,7 @@
   ],
   "rubberTreeConfig": {
     "shouldSpawn": true,
-    "chance": 75,
+    "chance": 60,
     "clusterSize": 7,
     "sapRarity": 10,
     "spireHeight": 4,

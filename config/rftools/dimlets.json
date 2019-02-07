@@ -49,7 +49,7 @@
     "settings": {
       "rarity": 2,
       "create": 100000,
-      "maintain": 3000,
+      "maintain": 10000,
       "ticks": 100,
       "worldgen": false,
       "dimlet": true
@@ -220,8 +220,8 @@
     },
     "settings": {
       "rarity": 5,
-      "create": 200000,
-      "maintain": 100000,
+      "create": 300000,
+      "maintain": 150000,
       "ticks": 1000,
       "worldgen": true,
       "dimlet": true
@@ -419,8 +419,8 @@
     },
     "settings": {
       "rarity": 4,
-      "create": 1000,
-      "maintain": 300,
+      "create": 1000000,
+      "maintain": 50000,
       "ticks": 50,
       "worldgen": false,
       "dimlet": false
@@ -574,7 +574,7 @@
     },
     "settings": {
       "rarity": 3,
-      "create": 80000,
+      "create": 300000,
       "maintain": 50000,
       "ticks": 300,
       "worldgen": true,
@@ -605,7 +605,7 @@
     },
     "settings": {
       "rarity": 5,
-      "create": 800000,
+      "create": 1000000,
       "maintain": 200000,
       "ticks": 1000,
       "worldgen": true,
@@ -754,8 +754,8 @@
     },
     "settings": {
       "rarity": 5,
-      "create": 50000,
-      "maintain": 50000,
+      "create": 30000,
+      "maintain": 30000,
       "ticks": 100,
       "worldgen": true,
       "dimlet": true
@@ -996,8 +996,8 @@
     },
     "settings": {
       "rarity": 6,
-      "create": 300000,
-      "maintain": 300000,
+      "create": 1000000,
+      "maintain": 500000,
       "ticks": 900,
       "worldgen": false,
       "dimlet": true
@@ -1114,8 +1114,8 @@
     },
     "settings": {
       "rarity": 5,
-      "create": 100000,
-      "maintain": 200000,
+      "create": 1000000,
+      "maintain": 800000,
       "ticks": 1000,
       "worldgen": true,
       "dimlet": true
