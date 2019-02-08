@@ -164,4 +164,36 @@
       <output name="GEAR_VIBRANT"/>
     </casting>
   </recipe>
+
+    <recipe name="Tweak: Stick from Wood" disabled="true" required="false">
+    <crafting>
+      <grid size="1x2">
+        <item name="logWood"/>
+        <item name="logWood"/>
+      </grid>
+      <output name="minecraft:stick, stickWood" amount="16" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Tweak: Chest from Wood" disabled="true" required="false">
+    <crafting>
+      <grid>
+        <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+        <item name="logWood"/><item/><item name="logWood"/>
+        <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+      </grid>
+      <output name="minecraft:chest, chestWood" amount="4" />
+    </crafting>
+  </recipe>
+ 
+  <recipe name="Tweak: Wood Hopper" disabled="true" required="false">
+    <crafting>
+      <grid>
+        <item name="IRON"/><item name="logWood"/><item name="IRON"/>
+        <item name="IRON"/><item name="logWood"/><item name="IRON"/>
+        <item/><item name="IRON"/><item/>
+      </grid>
+      <output name="minecraft:hopper, blockHopper" />
+    </crafting>
+  </recipe>
 </enderio:recipes>
