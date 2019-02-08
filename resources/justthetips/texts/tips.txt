@@ -1,1 +1,11 @@
-Dicas
+Parte dos powergens foi bastante buff'ed.
+Alguns blocos exigem picaretas com material superior a manyullyn para serem partidos.
+Os Dense Ores podem ser processados num Industrial Grinder para um melhor output.
+Nao precisas de ter o QuestBook na mao para veres os quests. Podes definir uma tecla nos controlos.
+Existem minerios que apenas existem noutros planetas.
+Crafta extras!
+Podes usar o 'backspace' para ires para a receita anterior no JEI.
+Toma atencao a tua nutricao.
+O Refined Storage pode ser utilizado para substituir o AE2 no mid-game. O AE2 precisa de componentes do RS e tem os channels ativos.
+Existem comidas que dao os 5 nutrientes.
+Usa 'shift' em cima da tua campa para recuperares os items.

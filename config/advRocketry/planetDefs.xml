@@ -18,12 +18,13 @@
 				<orbitalPhi>0</orbitalPhi>
 				<rotationalPeriod>128000</rotationalPeriod>
 				<atmosphereDensity>0</atmosphereDensity>
+				<biomeIds>advancedrocketry:moondark,advancedrocketry:moon</biomeIds>
 			</planet>
 		</planet>
 		<planet name="Mercury" DIMID="11" customIcon="lava">
 			<isKnown>True</isKnown>
 		    <biomeIds>advancedrocketry:hotdryrock</biomeIds>
-			<oceanBlock>minecraft:lava</oceanBlock>
+			<oceanBlock>thermalfoundation:fluid_pyrotheum</oceanBlock>
 			<fillerBlock>minecraft:netherrack</fillerBlock>
             <skyColor>0,0,0</skyColor>
 			<atmosphereDensity>120</atmosphereDensity>
@@ -34,7 +35,7 @@
 		<planet name="Venus" DIMID="12" customIcon="lava">
 			<isKnown>True</isKnown>
 		    <biomeIds>advancedrocketry:hotdryrock</biomeIds>
-			<oceanBlock>minecraft:lava</oceanBlock>
+			<oceanBlock>thermalfoundation:fluid_pyrotheum</oceanBlock>
 			<fillerBlock>minecraft:netherrack</fillerBlock>
             <skyColor>0,0,0</skyColor>
 			<fogColor>0.9,0.9,0.9</fogColor>
@@ -72,7 +73,8 @@
         </planet>
 		<planet name="Uranus" DIMID="16" customIcon="iceworld">
 			<isKnown>True</isKnown>
-		    <biomeIds>minecraft:snowy_tundra, minecraft:ice_spikes</biomeIds>
+		    <biomeIds>minecraft:ice_mountains</biomeIds>
+			<oceanBlock>thermalfoundation:fluid_cryotheum</oceanBlock>
             <skyColor>0,0.9,1</skyColor>
 			<fogColor>0.9,0.9,0.9</fogColor>
 			<atmosphereDensity>0</atmosphereDensity>
@@ -82,7 +84,8 @@
         </planet>
 		<planet name="Neptune" DIMID="17" customIcon="iceworld">
 			<isKnown>True</isKnown>
-		    <biomeIds>minecraft:snowy_tundra, minecraft:ice_spikes</biomeIds>
+		    <biomeIds>minecraft:mutated_ice_flats</biomeIds>
+			<oceanBlock>thermalfoundation:fluid_cryotheum</oceanBlock>
             <skyColor>0,0.5,1</skyColor>
 			<atmosphereDensity>0</atmosphereDensity>
 			<orbitalDistance>180</orbitalDistance>

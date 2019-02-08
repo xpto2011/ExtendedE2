@@ -1,0 +1,235 @@
+{
+	"populate": 
+		{
+		"large_vein_iron": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:iron_ore",
+						"metadata": 0,
+						"weight": 80
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"metadata": 5,
+						"weight": 14
+					},
+					{
+						"name": "excore:dense_iron",
+						"weight": 5
+					},
+					{
+						"name": "excore:dense_nickel",
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 150,
+				"sparse": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 20,
+			"min-height": 25,
+			"vein-height": 10,
+			"vein-diameter": 6,
+			"vertical-density": 4,
+			"horizontal-density": 3,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"large_vein_coal": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:coal_ore",
+						"metadata": 0,
+						"weight": 90
+					},
+					{
+						"name": "minecraft:diamond_ore",
+						"metadata": 0,
+						"weight": 4
+					},
+					{
+						"name": "excore:dense_coal",
+						"weight": 5
+					},
+					{
+						"name": "excore:dense_diamond",
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 130,
+				"sparse": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 25,
+			"min-height": 20,
+			"vein-height": 10,
+			"vein-diameter": 6,
+			"vertical-density": 4,
+			"horizontal-density": 3,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"large_vein_redstone": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:redstone_ore",
+						"metadata": 0,
+						"weight": 85
+					},
+					{
+						"name": "minecraft:lapis_ore",
+						"metadata": 0,
+						"weight": 8
+					},
+					{
+						"name": "excore:dense_redstone",
+						"weight": 6
+					},
+					{
+						"name": "excore:dense_lapis",
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 150,
+				"sparse": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 30,
+			"min-height": 10,
+			"vein-height": 10,
+			"vein-diameter": 6,
+			"vertical-density": 4,
+			"horizontal-density": 3,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"large_vein_copper_gold": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [
+					
+					{
+						"name": "thermalfoundation:ore",
+						"metadata": 0,
+						"weight": 83
+					},
+					{
+						"name": "minecraft:gold_ore",
+						"metadata": 0,
+						"weight": 10
+					},
+					{
+						"name": "excore:dense_copper",
+						"weight": 6
+					},
+					{
+						"name": "excore:dense_gold",
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 150,
+				"sparse": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 25,
+			"min-height": 20,
+			"vein-height": 10,
+			"vein-diameter": 6,
+			"vertical-density": 4,
+			"horizontal-density": 3,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"large_vein_tin_silver_lead": {
+			"distribution": "fractal",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"metadata": 1,
+						"weight": 70
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"metadata": 2,
+						"weight": 12
+					},
+					{
+						"name": "thermalfoundation:ore",
+						"metadata": 3,
+						"weight": 10
+					},
+					{
+						"name": "excore:dense_tin",
+						"weight": 5
+					},
+					{
+						"name": "excore:dense_silver",
+						"weight": 2
+					},
+					{
+						"name": "excore:dense_lead",
+						"weight": 1
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 200,
+				"sparse": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 35,
+			"min-height": 20,
+			"vein-height": 10,
+			"vein-diameter": 6,
+			"vertical-density": 4,
+			"horizontal-density": 3,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

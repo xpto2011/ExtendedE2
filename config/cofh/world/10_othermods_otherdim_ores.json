@@ -1,0 +1,100 @@
+{
+	"populate": {
+		"iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "thermalfoundation:ore",
+					"metadata": 7, "weight": 92
+				},{
+					"name": "excore:dense_iridium",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8,
+			"min-height": 8,
+			"max-height": 24,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					16, 17
+				]
+			}
+		},
+		"manainfused": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [{
+					"name": "thermalfoundation:ore",
+					"metadata": 8, "weight": 92
+				},{
+					"name": "excore:dense_mithril",
+					"weight": 8
+				}],
+				"material": "stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"min-height": 4,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					16, 17
+				]
+			}
+		},
+		"dimensional_shard": {
+			"distribution": "uniform",
+			"generator": {
+				"block": { 					 					
+					"name": "rftools:dimensional_shard_ore", 					 					
+					"metadata": 0				 				
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 4,
+			"min-height": 16,
+			"max-height": 48,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					16, 17
+				]
+			}
+		},
+		"dilithium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": { 					 					
+					"name": "libvulpes:ore0", 					 					
+					"metadata": 0				 				
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 22
+			},
+			"cluster-count": 6,
+			"min-height": 25,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		}
+	}
+}
