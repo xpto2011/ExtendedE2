@@ -1,4 +1,4 @@
-#Extended Extreme Modpack (EX^2)
+#Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 #Requires EXCORE!
 
@@ -135,7 +135,12 @@ ig(mithril * 9, null, null, null, <excore:dense_mithril>, null, <liquid:fluidsod
 #Dense Platinum
 furnace.addRecipe(<thermalfoundation:material:134> * 3, <excore:dense_platinum>);
 p(<thermalfoundation:ore:6> * 4, <excore:dense_platinum>, 16000);
-ig(plat * 9, null, null, null, <excore:dense_platinum>, null, <liquid:fluidsodiumpersulfate> * 1000, 200, 4096);
+ig(plat * 9, iridium * 2, null, null, <excore:dense_platinum>, null, <liquid:fluidsodiumpersulfate> * 1000, 200, 4096);
+
+#Dense Nickel
+furnace.addRecipe(<thermalfoundation:material:133> * 3, <excore:dense_platinum>);
+p(<thermalfoundation:ore:5> * 4, <excore:dense_nickel>, 16000);
+ig(nickel * 9, iron * 3, plat, null, <excore:dense_platinum>, null, <liquid:fluidsodiumpersulfate> * 1000, 200, 4096);
 
 #Dense Tin
 furnace.addRecipe(<thermalfoundation:material:129> * 3, <excore:dense_tin>);
