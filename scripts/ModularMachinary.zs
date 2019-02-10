@@ -1,6 +1,9 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
 
+#Extended Extreme Modpack Remake (EX^2)
+#Crafted by xpto2011
+
 var DM = "dense_compactor";
 
 var dense_aluminum = RecipeBuilder.newBuilder(DM + "_densealu", DM, 200);

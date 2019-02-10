@@ -5,6 +5,12 @@ recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<minecraft:bucket> * 64, [[<em:chaosingot>, null, <em:chaosingot>], [null, <em:chaosingot>, null]]);
 
+recipes.remove(<minecraft:furnace>);
+recipes.addShaped(<minecraft:furnace>, [
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>], 
+    [<ore:cobblestone>, <ore:gearStone>, <ore:cobblestone>], 
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+
 #add wheat to seed recipes
 #recipes.addShapeless(<minecraft:wheat_seeds>, [<minecraft:wheat>]);
 <minecraft:ender_pearl>.maxStackSize = 64;

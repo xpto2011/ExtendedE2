@@ -64,7 +64,7 @@
 					"weight": 8
 				}],
 				"material": "minecraft:netherrack",
-				"cluster-size": 1
+				"cluster-size": 4
 			},
 			"cluster-count": 1,
 			"chunk-chance": 8,
