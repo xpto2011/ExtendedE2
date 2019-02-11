@@ -132,7 +132,7 @@
       "blockNiceName": "Tungsten",
       "meta": 8,
       "veinSize": 2,
-      "veinsPerChunk": 1,
+      "veinsPerChunk": 2,
       "minYHeight": 10,
       "maxYHeight": 250,
       "shouldSpawn": true
