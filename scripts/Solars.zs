@@ -1,4 +1,4 @@
-#Extended Extreme Modpack (EX^2)
+#Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 
 recipes.remove(<solarflux:solar_panel_1>);
@@ -16,8 +16,6 @@ recipes.remove(<solarflux:photovoltaic_cell_3>);
 recipes.remove(<solarflux:photovoltaic_cell_4>);
 recipes.remove(<solarflux:photovoltaic_cell_5>);
 recipes.remove(<solarflux:photovoltaic_cell_6>);
-
-mods.avaritia.ExtremeCrafting.remove(<solarflux:solar_panel_neutronium>);
 
 #Disabled recipes here were moved to the efab
 
@@ -62,7 +60,7 @@ recipes.addShaped(<solarflux:solar_panel_6>, [
 
 recipes.addShaped(<solarflux:solar_panel_7>, [
 	[<solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>, <solarflux:photovoltaic_cell_3>],
-	[<solarflux:solar_panel_6>, <extraplanets:tier6_items:5>, <solarflux:solar_panel_6>],
+	[<solarflux:solar_panel_6>, <em:bannicio:5>, <solarflux:solar_panel_6>],
 	[<solarflux:solar_panel_6>, <rftools:machine_base>, <solarflux:solar_panel_6>]]);
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<solarflux:photovoltaic_cell_3>, <minecraft:blaze_rod> * 2, <solarflux:photovoltaic_cell_2>, 32000);
