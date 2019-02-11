@@ -244,11 +244,3 @@ recipes.addShaped(<enderio:item_endergy_conduit:11> * 2, [
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<enderio:item_endergy_conduit:10>, <ore:ingotStellarAlloy>, <enderio:item_endergy_conduit:10>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
-
-
-#Quantum Storage
-recipes.remove(<quantumstorage:quantum_storage_unit>);
-recipes.addShaped(<quantumstorage:quantum_storage_unit>, [
-	[<ore:itemRubber>, <enderio:item_material:44>, <ore:itemRubber>], 
-	[<enderio:item_alloy_ball:6>, <thermalfoundation:upgrade:35>, <enderio:item_alloy_ball:6>], 
-	[<draconicevolution:draconium_block>, <thermalexpansion:frame>, <draconicevolution:draconium_block>]]);

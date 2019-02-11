@@ -1,13 +1,39 @@
-#Extended Extreme Modpack (EX^2)
+#Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 
 #Indsutrial Foregoing
 recipes.remove(<industrialforegoing:tree_fluid_extractor>);
 recipes.addShaped(<industrialforegoing:tree_fluid_extractor>, [
 	[<ore:logWood>, <ore:logWood>, <ore:logWood>], 
-	[<ore:gearInvar>, <thermalexpansion:frame>, <ore:gearInvar>], 
+	[<ore:gearInvar>, <enderio:item_material:1>, <ore:gearInvar>], 
 	[<actuallyadditions:item_crystal_empowered:4>, <forestry:chipsets:3>, <actuallyadditions:item_crystal_empowered:4>]]);
-	
+
+recipes.remove(<industrialforegoing:crop_sower>);
+recipes.addShaped(<industrialforegoing:crop_sower>, [
+	[<industrialforegoing:plastic>, <minecraft:flower_pot>, <industrialforegoing:plastic>], 
+	[<minecraft:piston>, <thermalexpansion:frame>, <minecraft:piston>], 
+	[<ore:gearIron>, <forestry:impregnated_casing>, <ore:gearIron>]]);
+
+recipes.remove(<industrialforegoing:crop_enrich_material_injector>);
+recipes.addShaped(<industrialforegoing:crop_enrich_material_injector>, [
+	[<industrialforegoing:plastic>, <minecraft:glass_bottle>, <industrialforegoing:plastic>], 
+	[<minecraft:leather>, <thermalexpansion:frame>, <minecraft:leather>], 
+	[<ore:gearIron>, <forestry:impregnated_casing>, <ore:gearIron>]]);
+
+recipes.remove(<industrialforegoing:crop_recolector>);
+recipes.addShaped(<industrialforegoing:crop_recolector>, [
+	[<industrialforegoing:plastic>, <minecraft:iron_hoe>, <industrialforegoing:plastic>], 
+	[<minecraft:iron_axe>, <thermalexpansion:frame>, <minecraft:iron_axe>], 
+	[<ore:gearGold>, <forestry:impregnated_casing>, <ore:gearGold>]]);
+
+recipes.remove(<industrialforegoing:plant_interactor>);
+recipes.addShaped(<industrialforegoing:plant_interactor>, [
+	[<industrialforegoing:plastic>, <minecraft:iron_hoe>, <industrialforegoing:plastic>], 
+	[<minecraft:iron_hoe>, <thermalexpansion:frame>, <minecraft:iron_hoe>], 
+	[<ore:gearGold>, <forestry:impregnated_casing>, <ore:gearGold>]]);
+
+
+
 #Refined Storage
 #disable items to enforce progression to AE2
 recipes.remove(<refinedstorage:exporter>);
@@ -31,11 +57,11 @@ recipes.remove(<refinedstorage:fluid_interface>);
 #recipes.remove(<refinedstorage:crafter_manager>);
 recipes.remove(<rebornstorage:storagepart>);
 recipes.remove(<rebornstorage:storagepart:4>);
-recipes.remove(<rebornstorage:multicrafter>);
-recipes.remove(<rebornstorage:multicrafter:1>);
-recipes.remove(<rebornstorage:multicrafter:2>);
-recipes.remove(<rebornstorage:multicrafter:3>);
-recipes.remove(<rebornstorage:multicrafter:4>);
+#recipes.remove(<rebornstorage:multicrafter>);
+#recipes.remove(<rebornstorage:multicrafter:1>);
+#recipes.remove(<rebornstorage:multicrafter:2>);
+#recipes.remove(<rebornstorage:multicrafter:3>);
+#recipes.remove(<rebornstorage:multicrafter:4>);
 recipes.remove(<refinedstorage:machine_casing>);
 
 #Change Machine Casings
@@ -63,7 +89,7 @@ recipes.addShaped(<refinedstorage:crafter>, [
 
 recipes.addShaped(<refinedstorage:fluid_storage_part>, [
 	[<ore:itemSilicon>, <refinedstorage:quartz_enriched_iron>, <ore:itemSilicon>], 
-	[<ore:blockGlass>, <extracells:storage.component:6>, <ore:blockGlass>], 
+	[<ore:blockGlass>, <appliedenergistics2:material:56>, <ore:blockGlass>], 
 	[<ore:itemSilicon>, <ore:blockGlass>, <ore:itemSilicon>]]);
 
 recipes.addShaped(<rebornstorage:storagepart>, [
@@ -77,4 +103,17 @@ recipes.addShaped(<rebornstorage:storagepart:4>, [
 	[<refinedstorage:processor:5>, <refinedstorage:fluid_storage_part:3>, <refinedstorage:processor:5>]]);
 
 recipes.addShapeless(<refinedstorage:interface>, [<appliedenergistics2:interface>, <refinedstorage:exporter>, <refinedstorage:importer>]);
-recipes.addShapeless(<refinedstorage:fluid_interface>, [<extracells:ecbaseblock>, <refinedstorage:exporter>, <refinedstorage:importer>]);
+recipes.addShapeless(<refinedstorage:fluid_interface>, [<appliedenergistics2:fluid_interface>, <refinedstorage:exporter>, <refinedstorage:importer>]);
+
+#Quantum Storage
+recipes.remove(<quantumstorage:quantum_storage_unit>);
+recipes.addShaped(<quantumstorage:quantum_storage_unit>, [
+	[<ore:itemRubber>, <enderio:item_material:44>, <ore:itemRubber>], 
+	[<enderio:item_alloy_ball:6>, <thermalfoundation:upgrade:35>, <enderio:item_alloy_ball:6>], 
+	[<draconicevolution:draconium_block>, <thermalexpansion:frame>, <draconicevolution:draconium_block>]]);
+
+recipes.removeByRecipeName("quantumstorage:quantum_tank");
+recipes.addShaped(<quantumstorage:quantum_tank>, [
+	[<ore:itemRubber>, <enderio:item_material:44>, <ore:itemRubber>], 
+	[<enderio:item_alloy_ball:6>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Level: 4 as byte}), <enderio:item_alloy_ball:6>], 
+	[<draconicevolution:draconium_block>, <thermalexpansion:frame>, <draconicevolution:draconium_block>]]);
