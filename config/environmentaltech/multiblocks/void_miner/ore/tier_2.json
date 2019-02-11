@@ -96,11 +96,6 @@
       "id": "OD:oreUranium"
     },
     {
-      "target": "yellow",
-      "weight": 10,
-      "id": "OD:oreYellorite"
-    },
-    {
       "target": "light_blue",
       "weight": 12,
       "id": "OD:oreCertusQuartz"
@@ -129,11 +124,6 @@
       "target": "light_blue",
       "weight": 10,
       "id": "OD:orePlatinum"
-    },
-    {
-      "target": "light_blue",
-      "weight": 10,
-      "id": "OD:oreMithril"
     },
     {
       "target": "light_blue",
@@ -196,11 +186,6 @@
       "id": "OD:oreApatite"
     },
     {
-      "target": "purple",
-      "weight": 9,
-      "id": "OD:oreDraconium"
-    },
-    {
       "target": "black",
       "weight": 12,
       "id": "OD:oreGraphite"
@@ -211,26 +196,6 @@
       "id": "OD:oreQuartzBlack"
     },
     {
-      "target": "white",
-      "weight": 13,
-      "id": "OD:oreMagnesium"
-    },
-    {
-      "target": "white",
-      "weight": 13,
-      "id": "OD:oreLithium"
-    },
-    {
-      "target": "black",
-      "weight": 13,
-      "id": "OD:oreThroium"
-    },
-    {
-      "target": "siver",
-      "weight": 13,
-      "id": "OD:oreBoron"
-    },
-    {
       "target": "brown",
       "weight": 9,
       "id": "OD:oreResonating"
@@ -239,11 +204,6 @@
       "target": "pink",
       "weight": 11,
       "id": "OD:oreZinc"
-    },
-    {
-      "target": "white",
-      "weight": 9,
-      "id": "OD:oreIridium"
     },
     {
       "target": "black",
@@ -264,21 +224,6 @@
       "target": "white",
       "weight": 8,
       "id": "rftools:dimensional_shard_ore"
-    },
-    {
-      "target": "green",
-      "weight": 12,
-      "id": "OD:oreInferium"
-    },
-    {
-      "target": "silver",
-      "weight": 7,
-      "id": "OD:oreProsperity"
-    },
-    {
-      "target": "lime",
-      "weight": 14,
-      "id": "OD:oreBrainstone"
     }
   ]
 }
