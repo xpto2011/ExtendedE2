@@ -50,16 +50,8 @@
       <output name="ingotDarkSteel"/>
     </alloying>
   </recipe>
- 
-  <recipe name="Chassis" required="true">
-    <alloying energy="9200" exp="1">
-      <input name="SIMPLE_CHASSIS"/>
-      <input name="forestry:chipsets:2"/>
-      <output name="CHASSIS"/>
-    </alloying>
-  </recipe>
   
-    <recipe name="Gear, Stone" disabled="true">
+  <recipe name="Gear, Stone" disabled="true">
     <crafting>
       <grid>
         <item name="stickWood"/><item name="oredict:cobblestone"/><item name="stickWood"/>
