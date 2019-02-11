@@ -22,6 +22,7 @@ mods.jei.JEI.addItem(<em:bannicio:5>);
 mods.jei.JEI.addItem(<em:bannicio:6>);
 mods.jei.JEI.addItem(<em:bannicio:7>);
 mods.jei.JEI.addItem(<em:bannicio:8>);
+#TODO: Main Bannicio crafting recipe
 
 #Flux Networks
 recipes.remove(<fluxnetworks:fluxcore>);
