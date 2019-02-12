@@ -70,7 +70,7 @@ recipes.addShaped(<techreborn:energycrystal>, [
 	[<ore:ingotRedAlloy>, <ore:gemDiamond>, <ore:ingotRedAlloy>], 
 	[<ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>]]);
 
-recipes.remove(<techreborn:part:20>);
+recipes.remove(<techreborn:part:29>);
 recipes.addShaped(<techreborn:part:29>, [
 	[<techreborn:cable:5>, <techreborn:cable:5>, <techreborn:cable:5>], 
 	[<ore:ingotRedstoneAlloy>, <ore:ingotRefinedIron>, <ore:ingotRedstoneAlloy>], 

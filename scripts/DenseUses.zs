@@ -29,6 +29,8 @@ static lazurite as IItemStack = <techreborn:dust:28>;
 static cobalt as IItemStack = <tconstruct:ingots>;
 static ardite as IItemStack = <tconstruct:ingots:1>;
 
+static titanium as IItemStack = <techreborn:dust:54>;
+
 #Dense Coal
 furnace.addRecipe(<minecraft:coal> * 4, <excore:dense_coal>);
 p(<minecraft:coal> * 4, <excore:dense_coal>, 16000);
@@ -107,7 +109,7 @@ ig(copper * 9, gold * 2, nickel, null, <excore:dense_copper>, null, <liquid:flui
 #Dense Bauxite
 #furnace.addRecipe(<thermalfoundation:material:128> * 3, <excore:dense_bauxite>);
 p(<techreborn:ore:4> * 4, <excore:dense_bauxite>, 16000);
-ig(baux * 16, alu * 4, null, null, <excore:dense_bauxite>, null, <liquid:fluidsodiumpersulfate> * 1000, 200, 4096);
+ig(baux * 16, alu * 4, titanium, null, <excore:dense_bauxite>, null, <liquid:fluidsodiumpersulfate> * 1000, 200, 4096);
 
 #Dense Draconium
 furnace.addRecipe(<draconicevolution:draconium_ingot> * 3, <excore:dense_draconic>);

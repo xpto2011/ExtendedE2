@@ -38,4 +38,13 @@
 			<itemStack>libvulpes:productboule 1 3</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="20" power="20000">
+		<input>
+			<oreDict>gemDiamond 1</oreDict>
+			<oreDict>ingotTitaniumAluminide 1</oreDict>
+		</input>
+		<output>
+			<itemStack>quantumflux:craftingpiece 1 6</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

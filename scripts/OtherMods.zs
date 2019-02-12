@@ -1,6 +1,9 @@
 #Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
+
 #Chicken Chunks (for FTB Utilities)
 recipes.remove(<chickenchunks:chunk_loader>);
 
@@ -23,6 +26,8 @@ mods.jei.JEI.addItem(<em:bannicio:6>);
 mods.jei.JEI.addItem(<em:bannicio:7>);
 mods.jei.JEI.addItem(<em:bannicio:8>);
 #TODO: Main Bannicio crafting recipe
+mods.extendedcrafting.CombinationCrafting.addRecipe(<em:bannicio>, 8000000, <mysticalagradditions:insanium>, [<techreborn:uumatter>]);
+
 
 #Flux Networks
 recipes.remove(<fluxnetworks:fluxcore>);

@@ -175,7 +175,14 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@4"
+                "modularmachinery:blockenergyinputhatch@0",
+                "modularmachinery:blockenergyinputhatch@1",
+                "modularmachinery:blockenergyinputhatch@2",
+                "modularmachinery:blockenergyinputhatch@3",
+                "modularmachinery:blockenergyinputhatch@4",
+                "modularmachinery:blockenergyinputhatch@5",
+                "modularmachinery:blockenergyinputhatch@6",
+                "modularmachinery:blockenergyinputhatch@7"
             ]
         },
         {

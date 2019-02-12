@@ -137,7 +137,7 @@
         "extended":
         {
             "text" : "Extended Extreme 2 Modpack",
-			"hoverText" : "\nMade for Extended Server. Do not distribute!",
+			"hoverText" : "§nMade for Extended Server. Do not distribute!",
             "posX" : 2,
             "posY" : 2,
             "color" : -1,
