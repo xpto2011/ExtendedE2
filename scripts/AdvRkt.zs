@@ -1,6 +1,8 @@
 #Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 
+import crafttweaker.item.IItemStack;
+
 recipes.remove(<advancedrocketry:rocketbuilder>);
 recipes.addShaped(<advancedrocketry:rocketbuilder>, [
     [<ore:stickTitanium>, <solarflux:solar_panel_5>, <ore:stickTitanium>], 

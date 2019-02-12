@@ -25,7 +25,7 @@ mods.jei.JEI.addItem(<em:bannicio:5>);
 mods.jei.JEI.addItem(<em:bannicio:6>);
 mods.jei.JEI.addItem(<em:bannicio:7>);
 mods.jei.JEI.addItem(<em:bannicio:8>);
-#TODO: Main Bannicio crafting recipe
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<em:bannicio>, 8000000, <mysticalagradditions:insanium>, [<techreborn:uumatter>]);
 
 
@@ -35,3 +35,28 @@ recipes.addShaped(<fluxnetworks:fluxcore> * 4, [
     [<fluxnetworks:flux>, <ore:ingotVibrantAlloy>, <fluxnetworks:flux>], 
     [<ore:ingotVibrantAlloy>, <ore:gearSignalum>, <ore:ingotVibrantAlloy>], 
     [<fluxnetworks:flux>, <ore:ingotVibrantAlloy>, <fluxnetworks:flux>]]);
+
+#Extreme Reactors
+recipes.remove(<bigreactors:reactorcasing>);
+recipes.addShaped(<bigreactors:reactorcasing>, [
+	[<ore:plateSteel>, <ore:ingotGraphite>, <ore:plateSteel>], 
+	[<ore:ingotGraphite>, <ore:ingotUranium>, <ore:ingotGraphite>], 
+	[<ore:plateSteel>, <ore:ingotGraphite>, <ore:plateSteel>]]);
+	
+recipes.remove(<bigreactors:reactorcontroller>);
+recipes.addShaped(<bigreactors:reactorcontroller>, [
+	[<ore:plateSteel>, <mekanism:controlcircuit:3>, <ore:plateSteel>], 
+	[<mekanism:controlcircuit:3>, <bigreactors:reactorcasing>, <mekanism:controlcircuit:3>], 
+	[<ore:plateSteel>, <mekanism:controlcircuit:3>, <ore:plateSteel>]]);
+	
+recipes.remove(<bigreactors:reactorpowertaprf>);
+recipes.addShaped(<bigreactors:reactorpowertaprf>, [
+	[<bigreactors:reactorcasing>, <projectred-core:resource_item:342>, <bigreactors:reactorcasing>], 
+	[<projectred-core:resource_item:342>, null, <projectred-core:resource_item:342>], 
+	[<bigreactors:reactorcasing>, <projectred-core:resource_item:342>, <bigreactors:reactorcasing>]]);
+	
+recipes.remove(<bigreactors:reactorglass>);
+recipes.addShaped(<bigreactors:reactorglass>, [
+	[null, null, null], 
+	[<thermalfoundation:glass:4>, <bigreactors:reactorcasing>, <thermalfoundation:glass:4>], 
+	[null, null, null]]);
