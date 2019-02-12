@@ -88,6 +88,7 @@ recipes.addShapeless(<modularmachinery:blockenergyinputhatch:3>, [<modularmachin
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:4>, [<modularmachinery:blockenergyinputhatch:3>, <enderio:block_cap_bank:2>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:5>, [<modularmachinery:blockenergyinputhatch:4>, <enderio:block_cap_bank:2>]);
 recipes.addShapeless(<modularmachinery:blockenergyinputhatch:6>, [<modularmachinery:blockenergyinputhatch:5>, <enderio:block_cap_bank:2>]);
+recipes.addShapeless(<modularmachinery:blockenergyinputhatch:7>, [<modularmachinery:blockenergyinputhatch:6>, <enderio:block_cap_bank:2>]);
 
 #Energy Output
 recipes.addShaped(<modularmachinery:blockenergyoutputhatch:2>, [
@@ -97,4 +98,5 @@ recipes.addShaped(<modularmachinery:blockenergyoutputhatch:2>, [
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:3>, [<modularmachinery:blockenergyoutputhatch:2>, <enderio:block_cap_bank:2>]);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:4>, [<modularmachinery:blockenergyoutputhatch:3>, <enderio:block_cap_bank:2>]);
 recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:5>, [<modularmachinery:blockenergyoutputhatch:4>, <enderio:block_cap_bank:2>]);
-recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:6>, [<modularmachinery:blockenergyoutputhatch:5>, <enderio:block_cap_bank:2>]);
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:6>, [<modularmachinery:blockenergyoutputhatch:5>, <enderio:block_cap_bank:2>]);~
+recipes.addShapeless(<modularmachinery:blockenergyoutputhatch:7>, [<modularmachinery:blockenergyoutputhatch:6>, <enderio:block_cap_bank:2>]);
