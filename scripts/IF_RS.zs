@@ -68,14 +68,13 @@ recipes.remove(<refinedstorage:machine_casing>);
 recipes.addShaped(<refinedstorage:machine_casing>, [
 	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>], 
 	[<refinedstorage:quartz_enriched_iron>, <enderio:item_material:54>, <refinedstorage:quartz_enriched_iron>], 
-	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
+	[<refinedstorage:quartz_enriched_iron>, <enderio:item_alloy_endergy_ingot:1>, <refinedstorage:quartz_enriched_iron>]]);
 recipes.addShaped(<refinedstorage:pattern>, [
 	[<ore:blockGlass>, <minecraft:redstone>, <ore:blockGlass>], 
 	[<minecraft:redstone>, <appliedenergistics2:material:52>, <minecraft:redstone>], 
 	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
 
-
-#Readd some of the recipes with AE2 integration - WIP (waiting for AE2 recipes to be complete before making this)
+#Readd some of the recipes with AE2 integration
 recipes.addShapeless(<refinedstorage:exporter>, [<refinedstorage:cable>, <refinedstorage:core>, <refinedstorage:processor:4>, <appliedenergistics2:part:260>]);
 recipes.addShaped(<refinedstorage:wireless_transmitter>, [
 	[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:41>, <refinedstorage:quartz_enriched_iron>], 

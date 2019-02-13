@@ -60,7 +60,7 @@ recipes.remove(<quantumflux:craftingpiece:3>); #ender crystal
 recipes.addShaped(<quantumflux:craftingpiece> * 2, [
     [null, <ore:gemRuby>, null], 
     [<mekanism:controlcircuit:2>, <quantumflux:craftingpiece:3>, <mekanism:controlcircuit:2>], 
-    [<mekanism:controlcircuit:2>, null, <mekanism:controlcircuit:2>]]);
+    [<mekanism:controlcircuit:2>, <ore:crystalDilithium>, <mekanism:controlcircuit:2>]]);
 
 recipes.addShaped(<quantumflux:craftingpiece:2> * 2, [
     [<mekanism:controlcircuit:2>, <mekanism:controlcircuit:2>, <ore:gemRuby>], 

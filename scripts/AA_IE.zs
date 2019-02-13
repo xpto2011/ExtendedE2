@@ -12,10 +12,11 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:block_inputter_advanced>);
 
 mods.actuallyadditions.AtomicReconstructor.removeRecipe(<minecraft:leather>);
 
+recipes.remove(<actuallyadditions:block_energizer>);
 recipes.addShaped(<actuallyadditions:block_energizer>, [
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], 
-    [<ore:plateSteel>, <immersiveengineering:metal_device1:2>, <ore:plateSteel>], 
-    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+    [<actuallyadditions:item_crystal_empowered>, <ore:plateSteel>, <actuallyadditions:item_crystal_empowered>], 
+    [<ore:plateSteel>, <actuallyadditions:block_misc:9>, <ore:plateSteel>], 
+    [<actuallyadditions:item_crystal_empowered>, <ore:plateSteel>, <actuallyadditions:item_crystal_empowered>]]);
 
 recipes.remove(<actuallyadditions:block_misc:9>);
 recipes.addShaped(<actuallyadditions:block_misc:9>, [
@@ -30,11 +31,25 @@ recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [
     [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>]]);
 
 recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.remove(<actuallyadditions:block_giant_chest_medium>);
+recipes.remove(<actuallyadditions:block_giant_chest_large>);
 mods.forestry.Carpenter.addRecipe(<actuallyadditions:block_giant_chest>, [
     [<ore:chestWood>, <immersiveengineering:treated_wood>, <ore:chestWood>], 
     [<immersiveengineering:treated_wood>, <actuallyadditions:block_misc:4>, <immersiveengineering:treated_wood>], 
     [<ore:chestWood>, <immersiveengineering:treated_wood>, <ore:chestWood>]], 
-    20, <liquid:seed.oil> * 100);
+    20, <liquid:seed.oil> * 200);
+
+mods.forestry.Carpenter.addRecipe(<actuallyadditions:block_giant_chest_medium>, [
+    [<ore:chestWood>, <immersiveengineering:treated_wood>, <ore:chestWood>], 
+    [<immersiveengineering:treated_wood>, <actuallyadditions:block_giant_chest>, <immersiveengineering:treated_wood>], 
+    [<ore:chestWood>, <immersiveengineering:treated_wood>, <ore:chestWood>]], 
+    20, <liquid:seed.oil> * 400);
+
+mods.forestry.Carpenter.addRecipe(<actuallyadditions:block_giant_chest_large>, [
+    [<ore:chestWood>, <immersiveengineering:treated_wood>, <ore:chestWood>], 
+    [<immersiveengineering:treated_wood>, <actuallyadditions:block_giant_chest_medium>, <immersiveengineering:treated_wood>], 
+    [<ore:chestWood>, <immersiveengineering:treated_wood>, <ore:chestWood>]], 
+    20, <liquid:seed.oil> * 800);
 
 recipes.remove(<actuallyadditions:item_misc:8>);
 recipes.addShapeless(<actuallyadditions:item_misc:8>, [<ore:plateGold>, <actuallyadditions:item_misc:7>]);
