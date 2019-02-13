@@ -1,6 +1,6 @@
 {
-    "registryname": "auto_combinator",
-    "localizedname": "Automatic Combinator",
+    "registryname": "itemfluidcombiner",
+    "localizedname": "Item/Fluid Combiner",
     "parts": [
         {
             "x": -1,
@@ -23,7 +23,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "actuallyadditions:block_empowerer@0"
+                "extendedcrafting:crafting_core@0"
             ]
         },
         {
@@ -55,7 +55,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockcasing@1"
+                "modularmachinery:blockfluidinputhatch@4"
             ]
         },
         {
@@ -119,7 +119,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@1"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -175,9 +175,6 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@0",
-                "modularmachinery:blockenergyinputhatch@1",
-                "modularmachinery:blockenergyinputhatch@2",
                 "modularmachinery:blockenergyinputhatch@3",
                 "modularmachinery:blockenergyinputhatch@4",
                 "modularmachinery:blockenergyinputhatch@5",
