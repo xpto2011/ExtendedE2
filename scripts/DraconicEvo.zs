@@ -1,13 +1,14 @@
-#Extended Extreme Modpack (EX^2)
+#Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 
-recipes.remove(<draconicevolution:draconium_capacitor>);
-recipes.remove(<draconicevolution:draconium_capacitor:1>);
-#recipes.remove(<draconicevolution:draconicDistructionStaff>);
+#recipes.remove(<draconicevolution:draconic_staff_of_power>);
 #recipes.remove(<draconicevolution:draconic_boots>);
 #recipes.remove(<draconicevolution:draconic_leggs>);
 #recipes.remove(<draconicevolution:draconic_chest>);
 #recipes.remove(<draconicevolution:draconic_helm>);
+
+recipes.remove(<draconicevolution:draconium_capacitor>);
+recipes.remove(<draconicevolution:draconium_capacitor:1>);
 recipes.remove(<draconicevolution:grinder>);
 recipes.remove(<draconicevolution:wyvern_boots>);
 recipes.remove(<draconicevolution:wyvern_legs>);
@@ -17,6 +18,7 @@ recipes.remove(<draconicevolution:chaotic_core>);
 recipes.remove(<draconicevolution:awakened_core>);
 recipes.remove(<draconicevolution:wyvern_core>);
 recipes.remove(<draconicevolution:draconic_core>);
+recipes.remove(<draconicevolution:fusion_crafting_core>);
 
 recipes.addShaped(<draconicevolution:draconium_capacitor:1>, [
 	[<ore:ingotDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:ingotDraconiumAwakened>], 
@@ -48,20 +50,28 @@ recipes.addShaped(<draconicevolution:awakened_core>, [
 #efab
 recipes.addShaped(<draconicevolution:draconic_core>, [
 	[<ore:ingotDraconium>, <ore:ingotTitanium>, <ore:ingotDraconium>], 
-	[<ore:ingotTitanium>, <ore:gemBlueGem>, <ore:ingotTitanium>], 
+	[<ore:ingotTitanium>, <ore:crystalDilithium>, <ore:ingotTitanium>], 
 	[<ore:ingotDraconium>,<ore:ingotTitanium>, <ore:ingotDraconium>]]);
-recipes.addShaped(<draconicevolution:wyvern_core>, [
-	[<ore:ingotThaumium>, <draconicevolution:draconic_core>, <ore:ingotDraconium>], 
-	[<draconicevolution:draconic_core>, <ore:itemNetherStar>, <draconicevolution:draconic_core>], 
-	[<ore:ingotDraconium>, <draconicevolution:draconic_core>, <ore:ingotThaumium>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>, [
+	[<ore:ingotCrystallinePinkSlime>, <draconicevolution:draconic_core>, <ore:ingotDraconium>], 
+	[<draconicevolution:draconic_core>, <minecraft:nether_star>, <draconicevolution:draconic_core>], 
+	[<ore:ingotDraconium>, <draconicevolution:draconic_core>, <ore:ingotCrystallinePinkSlime>]]);
 
 recipes.addShaped(<draconicevolution:infused_obsidian>, [
 	[<minecraft:blaze_powder>, <minecraft:obsidian>, <minecraft:blaze_powder>], 
 	[<minecraft:obsidian>, <draconicevolution:draconium_dust>, <minecraft:obsidian>], 
 	[<minecraft:blaze_powder>, <minecraft:obsidian>, <minecraft:blaze_powder>]]);
 
+mods.extendedcrafting.TableCrafting.addShaped(2, <draconicevolution:fusion_crafting_core>, [
+	[<draconicevolution:draconium_block:1>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <draconicevolution:draconium_block:1>], 
+	[<thermalfoundation:glass_alloy:6>, <draconicevolution:draconic_core>, <ore:ingotStellarAlloy>, <draconicevolution:draconic_core>, <thermalfoundation:glass_alloy:6>], 
+	[<thermalfoundation:glass_alloy:6>, <ore:ingotStellarAlloy>, <minecraft:nether_star>, <ore:ingotStellarAlloy>, <thermalfoundation:glass_alloy:6>], 
+	[<thermalfoundation:glass_alloy:6>, <draconicevolution:draconic_core>, <ore:ingotStellarAlloy>, <draconicevolution:draconic_core>, <thermalfoundation:glass_alloy:6>], 
+	[<draconicevolution:draconium_block:1>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <draconicevolution:draconium_block:1>]]);  
+
+#Extreme Crafting
 #Draconic Staff of Power
-mods.avaritia.ExtremeCrafting.addShaped("de_dds", <draconicevolution:draconic_staff_of_power>, [[null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null],
+mods.extendedcrafting.TableCrafting.addShaped(4, <draconicevolution:draconic_staff_of_power>, [[null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <draconicevolution:draconic_pick>, <ore:ingotDraconiumAwakened>, <draconicevolution:draconic_shovel>, <ore:ingotDraconiumAwakened>, <draconicevolution:draconic_sword>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>],
 	[<ore:ingotDraconiumAwakened>, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, <ore:ingotDraconiumAwakened>],
 	[null, null, null, <ore:ingotDraconiumAwakened>, <em:bannicio:5>, <ore:ingotDraconiumAwakened>, null, null, null],
@@ -72,7 +82,7 @@ mods.avaritia.ExtremeCrafting.addShaped("de_dds", <draconicevolution:draconic_st
 	[null, null, null, <ore:ingotDraconiumAwakened>, <draconicevolution:draconic_energy_core>, <ore:ingotDraconiumAwakened>, null, null, null]]);
 																				
 #Draconic Armor
-mods.avaritia.ExtremeCrafting.addShaped("de_dh", <draconicevolution:draconic_helm>, [[null, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null],
+mods.extendedcrafting.TableCrafting.addShaped(4, <draconicevolution:draconic_helm>, [[null, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null],
 	[null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null],
 	[null, <ore:ingotDraconiumAwakened>, null, <draconicevolution:awakened_core>, <ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, null, <ore:ingotDraconiumAwakened>, null],
 	[null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null],
@@ -82,7 +92,7 @@ mods.avaritia.ExtremeCrafting.addShaped("de_dh", <draconicevolution:draconic_hel
 	[null, null, null, null, null, null, null, null, null],
 	[null, null, null, null, null, null, null, null, null]]);
 																				
-mods.avaritia.ExtremeCrafting.addShaped("de_dc", <draconicevolution:draconic_chest>, [[null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null],
+mods.extendedcrafting.TableCrafting.addShaped(4, <draconicevolution:draconic_chest>, [[null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, <draconicevolution:wyvern_chest>, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>],
 	[null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null],
@@ -92,7 +102,7 @@ mods.avaritia.ExtremeCrafting.addShaped("de_dc", <draconicevolution:draconic_che
 	[null, <ore:ingotDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <ore:ingotDraconiumAwakened>, null],
 	[null, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null]]);
 
-mods.avaritia.ExtremeCrafting.addShaped("de_dl", <draconicevolution:draconic_legs>, [[<ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>],
+mods.extendedcrafting.TableCrafting.addShaped(4, <draconicevolution:draconic_legs>, [[<ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <draconicevolution:awakened_core>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null, <draconicevolution:wyvern_legs>, null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>],
@@ -102,7 +112,7 @@ mods.avaritia.ExtremeCrafting.addShaped("de_dl", <draconicevolution:draconic_leg
 	[<ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null, null, null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null, null, null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>]]);																		
 
-mods.avaritia.ExtremeCrafting.addShaped("de_db", <draconicevolution:draconic_boots>, [[null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_boots>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null],
+mods.extendedcrafting.TableCrafting.addShaped(4, <draconicevolution:draconic_boots>, [[null, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_boots>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, null],
 	[null, <ore:ingotDraconiumAwakened>, <draconicevolution:draconic_energy_core>, <ore:ingotDraconiumAwakened>, null, <ore:ingotDraconiumAwakened>, <draconicevolution:draconic_energy_core>, <ore:ingotDraconiumAwakened>, null],
 	[null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null],
 	[<ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, null, <ore:ingotDraconiumAwakened>, <ore:ingotCosmicNeutronium>, <ore:ingotDraconiumAwakened>, <ore:ingotDraconiumAwakened>],

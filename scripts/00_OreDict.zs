@@ -16,4 +16,4 @@ recipes.addShaped(<thermalfoundation:material:23>, [
 recipes.removeByRecipeName("unidict:ingotbronze_x1_shape.aaaaaaaaa");
 
 #Ores Information
-mods.jei.JEI.addDescription(<ore:ingotMithril>, "Found in cold planets.", "Can also be a product of sieving gravel");
+#mods.jei.JEI.addDescription(<ore:ingotMithril>, "Found in cold planets.", "Can also be a product of sieving gravel");

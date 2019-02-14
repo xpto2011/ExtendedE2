@@ -95,7 +95,7 @@ recipes.addShaped(<ae2stuff:grower>, [
 	[<appliedenergistics2:quartz_growth_accelerator>, <appliedenergistics2:material:23>, <appliedenergistics2:quartz_growth_accelerator>]]);
 recipes.addShaped(<appliedenergistics2:quartz_growth_accelerator>, [
 	[<mysticalagriculture:crafting:37>, <appliedenergistics2:part:16>, <mysticalagriculture:crafting:37>], 
-	[<appliedenergistics2:fluix_block>, <ore:gearPlatinum>, <appliedenergistics2:fluix_block>], 
+	[<appliedenergistics2:fluix_block>, <ore:gearMithril>, <appliedenergistics2:fluix_block>], 
 	[<mysticalagriculture:crafting:37>, <appliedenergistics2:part:16>, <mysticalagriculture:crafting:37>]]);
 	
 recipes.addShaped(<ae2stuff:inscriber>, [
@@ -113,9 +113,9 @@ recipes.addShaped(<appliedenergistics2:chest>, [
 	[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]]);
 
 recipes.addShaped(<appliedenergistics2:molecular_assembler>, [
-	[<ore:ingotPlatinum>, <appliedenergistics2:quartz_glass>, <ore:ingotPlatinum>], 
+	[<ore:ingotMithril>, <appliedenergistics2:quartz_glass>, <ore:ingotMithril>], 
 	[<appliedenergistics2:material:43>, <avaritia:double_compressed_crafting_table>, <appliedenergistics2:material:44>], 
-	[<ore:ingotPlatinum>, <appliedenergistics2:quartz_glass>, <ore:ingotPlatinum>]]);
+	[<ore:ingotMithril>, <appliedenergistics2:quartz_glass>, <ore:ingotMithril>]]);
 
 recipes.addShaped(<appliedenergistics2:interface>, [
 	[<ore:ingotPlatinum>, <appliedenergistics2:material:23>, <ore:ingotPlatinum>], 

@@ -244,3 +244,6 @@ recipes.addShaped(<enderio:item_endergy_conduit:11> * 2, [
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
 	[<enderio:item_endergy_conduit:10>, <ore:ingotStellarAlloy>, <enderio:item_endergy_conduit:10>], 
 	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+
+#Add convertion from Manasteel ingot (Botania) to Mana Infused Ingot (TF)
+mods.mekanism.infuser.addRecipe("DIAMOND", 80, <botania:manaresource>, <thermalfoundation:material:136>);
