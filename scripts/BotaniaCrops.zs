@@ -24,7 +24,7 @@ mods.botania.ManaInfusion.addAlchemy(<mysticalagriculture:infusion_crystal>, <bo
 recipes.remove(<mysticalagriculture:master_infusion_crystal>);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:master_infusion_crystal>, 
     [<mysticalagriculture:storage:4>, <minecraft:nether_star>, <botania:storage>, <botania:storage:1>, 
-    <botania:storage:2>, <botania:storage:3>, <botania:storage:4>, <botania:manaresource:1>], 100000);
+    <botania:storage:2>, <botania:storage:3>, <botania:storage:4>, <avaritiatweaks:gaia_block>, <botania:manaresource:1>], 100000);
 
 #Remove Insanium from normal Infusion Crystal Crafting
 recipes.removeByRecipeName("mysticalagradditions:insanium_essence_to");
