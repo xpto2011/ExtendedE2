@@ -38,6 +38,20 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:table_ultimat
 	[<extendedcrafting:trimmed:4>, <ore:blockLudicrite>, <avaritia:double_compressed_crafting_table>, <thermalexpansion:frame:148>, <avaritia:double_compressed_crafting_table>, <ore:blockMirion>, <extendedcrafting:trimmed:4>], 
 	[<thermalexpansion:frame:147>, <extendedcrafting:trimmed:4>, <ore:crystalDraconium>, <techreborn:part:3>, <ore:crystalDraconium>, <extendedcrafting:trimmed:4>, <thermalexpansion:frame:147>]]);
 
+#Quantum Compressor
+recipes.remove(<extendedcrafting:compressor>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:compressor>, [
+	[<avaritia:resource:1>, <enderio:block_impulse_hopper>, <enderio:block_impulse_hopper>, <enderio:block_impulse_hopper>, <enderio:block_impulse_hopper>, <enderio:block_impulse_hopper>, <enderio:block_impulse_hopper>, <enderio:block_impulse_hopper>, <avaritia:resource:1>],
+	[<ore:ingotStellarAlloy>, null, <avaritia:block_resource>, null, null, null, <avaritia:block_resource>, null, <ore:ingotStellarAlloy>],
+	[<avaritia:resource:1>, null, <avaritia:block_resource>, null, null, null, <avaritia:block_resource>, null, <avaritia:resource:1>],
+	[<ore:ingotStellarAlloy>, null, <avaritia:block_resource>, null, null, null, <avaritia:block_resource>, null, <ore:ingotStellarAlloy>],
+	[<redstonearsenal:storage:1>, <avaritia:resource:4>, <avaritia:block_resource>, null, <avaritia:block_resource>, null, <avaritia:block_resource>, <avaritia:resource:4>, <redstonearsenal:storage:1>],
+	[<ore:ingotStellarAlloy>, null, <avaritia:block_resource>, null, null, null, <avaritia:block_resource>, null, <ore:ingotStellarAlloy>],
+	[<avaritia:resource:1>, null, <avaritia:block_resource>, null, null, null, <avaritia:block_resource>, null, <avaritia:resource:1>],
+	[<ore:ingotStellarAlloy>, null, <avaritia:block_resource>, null, null, null, <avaritia:block_resource>, null, <ore:ingotStellarAlloy>],
+	[<avaritia:resource:1>, <ore:ingotStellarAlloy>, <avaritia:resource:1>, <ore:ingotStellarAlloy>, <avaritia:resource:1>, <ore:ingotStellarAlloy>, <avaritia:resource:1>, <ore:ingotStellarAlloy>, <avaritia:resource:1>]]);
+
+
 #Ultimate Ingot
 mods.extendedcrafting.TableCrafting.addShapeless(4, <extendedcrafting:material:32>, [
 <minecraft:iron_ingot>,

@@ -11,8 +11,10 @@ recipes.removeByRecipeName("environmentaltech:m_resources/litherite/litherite_cr
 var litherite = RecipeBuilder.newBuilder("if_io_etlitherite", "itemfluidcombiner", 100);
     litherite.addItemInput(<ore:gemDiamond>, 2);
 	litherite.addItemInput(<ore:stone>, 4);
-	litherite.addFluidInput(<liquid:refined_fuel> * 500);
-    litherite.addItemOutput(<environmentaltech:litherite_crystal>);
+	litherite.addItemInput(<ore:ingotIridium>, 2);
+	litherite.addItemInput(<ore:ingotMithril>, 8);
+	litherite.addFluidInput(<liquid:refined_fuel> * 1000);
+    litherite.addItemOutput(<ore:crystalLitherite>, 2);
     litherite.addEnergyPerTickInput(30000);
     litherite.build();
 

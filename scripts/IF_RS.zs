@@ -32,7 +32,9 @@ recipes.addShaped(<industrialforegoing:plant_interactor>, [
 	[<minecraft:iron_hoe>, <thermalexpansion:frame>, <minecraft:iron_hoe>], 
 	[<ore:gearGold>, <forestry:impregnated_casing>, <ore:gearGold>]]);
 
-
+mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_unit>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_controller>);
+mods.jei.JEI.removeAndHide(<industrialforegoing:black_hole_tank>);
 
 #Refined Storage
 #disable items to enforce progression to AE2

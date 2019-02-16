@@ -19,7 +19,7 @@ recipes.remove(<rftools:shape_card:2>);
 
 #Addcrafting
 recipes.addShaped(<rftools:machine_frame>, [
-	[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], 
+	[<ore:ingotInvar>, <industrialforegoing:pink_slime_ingot>, <ore:ingotInvar>], 
 	[<ore:ingotSignalum>, <thermalfoundation:upgrade:33>, <ore:ingotSignalum>],
 	[<rftools:machine_base>, <enderio:item_material:1>, <rftools:machine_base>]]);
 
