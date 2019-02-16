@@ -43,7 +43,7 @@ recipes.addShaped(<draconicevolution:chaotic_core>, [
 	[<ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <ore:ingotCosmicNeutronium>], 
 	[<draconicevolution:awakened_core>, <draconicevolution:chaos_shard>, <draconicevolution:awakened_core>], 
 	[<ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <ore:ingotCosmicNeutronium>]]);
-recipes.addShaped(<draconicevolution:awakened_core>, [
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>, [
 	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>], 
 	[<draconicevolution:wyvern_core>, <minecraft:nether_star>, <draconicevolution:wyvern_core>], 
 	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>]]);

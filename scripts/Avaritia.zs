@@ -15,7 +15,7 @@ mods.jei.JEI.removeAndHide(<avaritia:neutronium_compressor>);
 
 #Extreme Crafting Table
 mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:extreme_crafting_table>, 1000000, <avaritia:double_compressed_crafting_table>, [
-    <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, 
+    <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, <draconicevolution:awakened_core>, 
     <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>]);
 
 #Infinity Star
