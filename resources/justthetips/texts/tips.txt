@@ -1,4 +1,4 @@
-Parte dos powergens foi bastante buff'ed.
+Parte dos powergens foi configurado para produzir mais que o normal. Parte das maquinas tambem usa mais power que o normal.
 Alguns blocos exigem picaretas com material superior a manyullyn para serem partidos.
 Os Dense Ores podem ser processados num Industrial Grinder para um melhor output.
 Nao precisas de ter o QuestBook na mao para veres os quests. Podes definir uma tecla nos controlos.
@@ -9,3 +9,7 @@ Toma atencao a tua nutricao.
 O Refined Storage pode ser utilizado para substituir o AE2 no mid-game. O AE2 precisa de componentes do RS e tem os channels ativos.
 Existem comidas que dao os 5 nutrientes.
 Usa 'shift' em cima da tua campa para recuperares os items.
+A medida que vais progredindo, as receitas tambem vao ficando mais dificil. Certifica-te que automatizas alguns dos componentes principais.
+Para os quests que nao tem descricao podes usar o Google ou o manual de tal mod (se aplicavel) para saberes mais sobre tais blocos/items.
+As melhor maneira de produzir energia e o Plasma Generator do TechReborn e o Fusion Reactor do NuclearCraft. Para o early game: compression dynamos, diesel generator ou lava generators.
+Nao precisas de terminar uma linha de quests para passares para a proxima. Muitas vezes a progressao interlaca-se entre linhas.

@@ -79,3 +79,6 @@ banned-ips.json
 #remove questbook
 /config/betterquesting/DefaultLoot.json
 /config/betterquesting/DefaultQuests.json
+
+#discordchat info
+/config/shadowfacts/
