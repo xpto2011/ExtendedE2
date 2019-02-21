@@ -68,3 +68,22 @@ recipes.addShaped(<environmentaltech:structure_frame_6>, [[<ore:ingotArdite>, <e
 
 recipes.remove(<environmentaltech:modifier_null>);
 recipes.addShaped(<environmentaltech:modifier_null>, [[<ore:ingotRefinedIron>, <environmentaltech:interconnect>, <ore:ingotRefinedIron>], [<environmentaltech:interconnect>, <ore:blockDiamond>, <environmentaltech:interconnect>], [<ore:ingotRefinedIron>, <environmentaltech:interconnect>, <ore:ingotRefinedIron>]]);
+
+
+recipes.remove(<environmentaltech:solar_cont_5>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:solar_cont_5>, 
+	[[<mekanism:machineblock3:1>, <environmentaltech:solar_cell_ionite>, <environmentaltech:solar_cell_ionite>, <environmentaltech:solar_cell_ionite>, <mekanism:machineblock3:1>], 
+	[<environmentaltech:solar_cell_ionite>, <ore:blockIonite>, <thermalexpansion:frame:128>, <ore:blockIonite>, <environmentaltech:solar_cell_ionite>], 
+	[<environmentaltech:solar_cell_ionite>, <thermalexpansion:frame:128>, <environmentaltech:solar_cont_4>, <thermalexpansion:frame:128>, <environmentaltech:solar_cell_ionite>], 
+	[<environmentaltech:solar_cell_ionite>, <ore:blockIonite>, <thermalexpansion:frame:146>, <ore:blockIonite>, <environmentaltech:solar_cell_ionite>], 
+	[<mekanism:machineblock3:1>, <environmentaltech:solar_cell_ionite>, <environmentaltech:solar_cell_ionite>, <environmentaltech:solar_cell_ionite>, <mekanism:machineblock3:1>]]);  
+
+recipes.remove(<environmentaltech:solar_cont_6>);
+mods.extendedcrafting.TableCrafting.addShaped(0, <environmentaltech:solar_cont_6>, [
+	[<solarflux:solar_panel_8>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <solarflux:solar_panel_8>], 
+	[<environmentaltech:solar_cell_aethium>, <ore:blockAethium>, <ore:blockAethium>, <thermalexpansion:frame:148>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:solar_cell_aethium>], 
+	[<environmentaltech:solar_cell_aethium>, <ore:blockAethium>, <nuclearcraft:part:3>, <enderio:block_cap_bank:3>, <nuclearcraft:part:3>, <ore:blockAethium>, <environmentaltech:solar_cell_aethium>], 
+	[<environmentaltech:solar_cell_aethium>, <thermalexpansion:frame:148>, <solarflux:solar_panel_8>, <environmentaltech:solar_cont_4>, <solarflux:solar_panel_8>, <thermalexpansion:frame:148>, <environmentaltech:solar_cell_aethium>], 
+	[<environmentaltech:solar_cell_aethium>, <ore:blockAethium>, <nuclearcraft:part:3>, <enderio:block_cap_bank:3>, <nuclearcraft:part:3>, <ore:blockAethium>, <environmentaltech:solar_cell_aethium>], 
+	[<environmentaltech:solar_cell_aethium>, <ore:blockAethium>, <ore:blockAethium>, <thermalexpansion:frame:148>, <ore:blockAethium>, <ore:blockAethium>, <environmentaltech:solar_cell_aethium>], 
+	[<solarflux:solar_panel_8>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <environmentaltech:solar_cell_aethium>, <solarflux:solar_panel_8>]]);

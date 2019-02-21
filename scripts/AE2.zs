@@ -55,7 +55,6 @@ recipes.addShaped(<appliedenergistics2:quartz_block>, [
 	[<appliedenergistics2:material>, <appliedenergistics2:material>, <appliedenergistics2:material>],
 	[<appliedenergistics2:material>, <appliedenergistics2:material>, <appliedenergistics2:material>]]);
 
-
 recipes.addShapeless(<appliedenergistics2:part:380>, [<refinedstorage:grid>, <ore:itemIlluminatedPanel>]);
 recipes.addShapeless(<appliedenergistics2:material:7> * 9, [<appliedenergistics2:fluix_block>]);
 recipes.addShapeless(<appliedenergistics2:material> * 9, [<appliedenergistics2:quartz_block>]);
@@ -76,10 +75,6 @@ recipes.addShaped(<appliedenergistics2:material:35>, [
 #	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <appliedenergistics2:material:24>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
 #	[<ore:crystalPureFluix>, <thermalexpansion:frame>, <ore:crystalPureFluix>], 
 #	[<ore:crystalOsmium>, <ore:plateCopper>, <ore:crystalOsmium>]]);
-recipes.addShaped(<appliedenergistics2:controller>, [
-	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <ore:plateIridiumAlloy>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
-	[<ore:crystalPureFluix>, <enderio:item_material:54>, <ore:crystalPureFluix>], 
-	[<ore:crystalOsmium>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>]]);
 
 recipes.addShaped(<extracells:part.base:7>, [[<appliedenergistics2:drive>, <appliedenergistics2:material:43>, <appliedenergistics2:material:44>]]);
 recipes.addShaped(<appliedenergistics2:material:44> * 2, [[<appliedenergistics2:material:11>, <appliedenergistics2:material:9>, <appliedenergistics2:material:22>]]);
@@ -157,3 +152,20 @@ recipes.addShaped(<appliedenergistics2:quantum_ring>,
  [[<ore:ingotIron>, <appliedenergistics2:material:22>, <ore:ingotIron>],
   [<appliedenergistics2:material:24>, <appliedenergistics2:energy_cell>, <appliedenergistics2:part:16>],
   [<ore:ingotIron>, <appliedenergistics2:material:22>, <ore:ingotIron>]]);
+
+
+#recipes.addShaped(<appliedenergistics2:controller>, [
+#	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <ore:plateIridiumAlloy>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
+#	[<ore:crystalPureFluix>, <enderio:item_material:54>, <ore:crystalPureFluix>], 
+#	[<ore:crystalOsmium>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>]]);
+
+#recipes.remove(<appliedenergistics2:controller>);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:controller>, 5000000, <appliedenergistics2:energy_acceptor>, 
+	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), 
+	<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), 
+	<ore:plateIridiumAlloy>, <ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>,
+	<enderio:item_material:54>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>, <ore:crystalOsmium>,
+	<refinedstorage:controller>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>,
+	<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <enderio:item_alloy_endergy_nugget:3>,
+	<ore:gearVibrant>]);
+

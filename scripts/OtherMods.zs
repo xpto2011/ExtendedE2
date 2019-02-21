@@ -26,8 +26,7 @@ mods.jei.JEI.addItem(<em:bannicio:6>);
 mods.jei.JEI.addItem(<em:bannicio:7>);
 mods.jei.JEI.addItem(<em:bannicio:8>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<em:bannicio>, 8000000, <mysticalagradditions:insanium>, [<techreborn:uumatter>]);
-
+mods.extendedcrafting.CombinationCrafting.addRecipe(<em:bannicio>, 4000000, <mysticalagradditions:insanium>, [<techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>, <techreborn:uumatter>]);
 
 #Flux Networks
 recipes.remove(<fluxnetworks:fluxcore>);
