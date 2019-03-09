@@ -40,7 +40,7 @@ recipes.addShaped(<thermalfoundation:upgrade:3>, [
 recipes.remove(<thermaldynamics:duct_0>);
 recipes.addShaped(<thermaldynamics:duct_0> * 6, [
 	[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], 
-	[<ore:ingotLead>, <ore:glass>, <ore:ingotLead>], 
+	[<ore:ingotLead>, <ore:blockGlass>, <ore:ingotLead>], 
 	[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]]);
 recipes.remove(<thermaldynamics:duct_16>);
 recipes.remove(<thermaldynamics:duct_16:1>);

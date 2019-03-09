@@ -59,3 +59,12 @@ recipes.addShaped(<bigreactors:reactorglass>, [
 	[null, null, null], 
 	[<thermalfoundation:glass:4>, <bigreactors:reactorcasing>, <thermalfoundation:glass:4>], 
 	[null, null, null]]);
+
+#Recipe Fixes
+recipes.remove(<actuallyadditions:item_misc:4> * 3);
+recipes.addShaped(<actuallyadditions:item_misc:4> * 3, [[<ore:cropWheat>], [<ore:cropWheat>], [<ore:cropWheat>]]);
+#Electrotine
+recipes.addShaped(<projectred-core:resource_item:105>, [
+	[<ore:gemLapis>], [<ore:gemLapis>], [<ore:gemLapis>],
+	[<ore:gemLapis>], [<ore:dustRedstone>], [<ore:gemLapis>],
+	[<ore:gemLapis>], [<ore:gemLapis>], [<ore:gemLapis>]]);

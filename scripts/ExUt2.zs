@@ -36,9 +36,26 @@ recipes.addShaped(<extrautils2:quarry>, [
 
 recipes.remove(<extrautils2:machine>);
 recipes.addShaped(<extrautils2:machine> * 4, [
-    [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>], 
-    [<ore:dustRedstone>, <actuallyadditions:block_misc:9>, <ore:dustRedstone>], 
-    [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>]]);
+    [<ore:plateIron>, <ore:blockRedstone>, <ore:plateIron>], 
+    [<ore:blockRedstone>, <actuallyadditions:block_misc:9>, <ore:blockRedstone>], 
+    [<ore:plateIron>, <ore:blockRedstone>, <ore:plateIron>]]);
+
+#Generators
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator"}), [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <extrautils2:machine>, <ore:ingotIron>], [<ore:dustRedstone>, <minecraft:furnace:*>, <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}), [[<minecraft:wheat> | <minecraft:potato> | <minecraft:carrot>, <minecraft:wheat> | <minecraft:potato> | <minecraft:carrot>, <minecraft:wheat> | <minecraft:potato> | <minecraft:carrot>], [<minecraft:wheat> | <minecraft:potato> | <minecraft:carrot>, <minecraft:cooked_porkchop> | <minecraft:cooked_beef> | <minecraft:cooked_chicken> | <minecraft:cooked_mutton> | <minecraft:cooked_fish> | <minecraft:cooked_rabbit>, <minecraft:wheat> | <minecraft:potato> | <minecraft:carrot>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_redstone"}), [[<minecraft:redstone:*>, <minecraft:redstone:*>, <minecraft:redstone:*>], [<minecraft:redstone:*>, <minecraft:redstone_block:*>, <minecraft:redstone:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator_lava"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ender"}), [[<minecraft:ender_pearl:*>, <minecraft:ender_pearl:*>, <minecraft:ender_pearl:*>], [<minecraft:ender_pearl:*>, <minecraft:obsidian:*>, <minecraft:ender_pearl:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_potion"}), [[<minecraft:blaze_rod:*>, <minecraft:blaze_rod:*>, <minecraft:blaze_rod:*>], [<minecraft:blaze_rod:*>, <minecraft:brewing_stand:*>, <minecraft:blaze_rod:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}), [[<minecraft:dye:9>, <minecraft:dye:9>, <minecraft:dye:9>], [<minecraft:dye:9>, <minecraft:wool:6>, <minecraft:dye:9>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<minecraft:dye:4>, <minecraft:gold_block:*>, <minecraft:dye:4>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}), [[<minecraft:gunpowder:*>, <minecraft:gunpowder:*>, <minecraft:gunpowder:*>], [<minecraft:gunpowder:*>, <minecraft:tnt:*>, <minecraft:gunpowder:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), [[<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>], [<minecraft:skull:1>, <minecraft:nether_star:*>, <minecraft:skull:1>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_dragonsbreath"}), [[<minecraft:purpur_block:*>, <minecraft:purpur_block:*>, <minecraft:purpur_block:*>], [<minecraft:purpur_block:*>, <minecraft:end_rod:*>, <minecraft:purpur_block:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ice"}), [[<minecraft:snowball:*>, <minecraft:snowball:*>, <minecraft:snowball:*>], [<minecraft:snowball:*>, <minecraft:ice:*>, <minecraft:snowball:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}), [[<minecraft:bone> | <minecraft:rotten_flesh>, <minecraft:bone> | <minecraft:rotten_flesh>, <minecraft:bone> | <minecraft:rotten_flesh>], [<minecraft:bone> | <minecraft:rotten_flesh>, <minecraft:spider_eye>, <minecraft:bone> | <minecraft:rotten_flesh>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}), [[<extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>], [<extrautils2:decorativesolidwood:1>, <minecraft:enchanting_table:*>, <extrautils2:decorativesolidwood:1>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}), [[<minecraft:slime_ball:*>, <minecraft:slime_ball:*>, <minecraft:slime_ball:*>], [<minecraft:slime_ball:*>, <minecraft:slime:*>, <minecraft:slime_ball:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
+
 
 #Remove Angel Rings -> Loot Chest only
 recipes.remove(<extrautils2:chickenring:*>);

@@ -67,6 +67,8 @@ mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
 #recipes.remove(<enderstorage:ender_storage>);
 #recipes.remove(<enderstorage:ender_storage:1>);
 
+recipes.addShapeless(<minecraft:wheat_seeds>, [<minecraft:wheat>]);
+
 #Tinkers Construct
 mods.tconstruct.Fuel.registerFuel(<liquid:refined_fuel>, 60000);
 mods.tconstruct.Fuel.registerFuel(<liquid:rocket_fuel>, 60000);

@@ -4,9 +4,9 @@
 #Forestry
 recipes.remove(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [
-    [<ore:gearBronze>, <ore:glass>, <ore:gearBronze>], 
-    [<ore:glass>, null, <ore:glass>], 
-    [<ore:gearBronze>, <ore:glass>, <ore:gearBronze>]]);
+    [<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>], 
+    [<ore:blockGlass>, null, <ore:blockGlass>], 
+    [<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>]]);
 
 recipes.remove(<forestry:carpenter>);
 recipes.addShaped(<forestry:carpenter>, [

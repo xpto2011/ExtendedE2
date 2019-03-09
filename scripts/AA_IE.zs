@@ -61,3 +61,15 @@ recipes.addShaped(<immersiveengineering:metal_device1:2>, [
     [<ore:dustRedstone>, <actuallyadditions:item_misc:7>, <ore:dustRedstone>],
     [<actuallyadditions:item_misc:7>, <immersiveengineering:metal_decoration0>, <actuallyadditions:item_misc:7>], 
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+
+#Add Pam's Seeds to Squeezer and Pam's Fermenter
+var pamsseeds = <ore:listAllseed>;
+pamsseeds.removeItems([<minecraft:wheat_seeds>, <minecraft:pumpkin_seeds>, <minecraft:melon_seeds>, <minecraft:beetroot_seeds>]);
+var pamsfruits = <ore:listAllfruit>;
+pamsfruits.remove(<minecraft:apple>);
+var pamsveggies = <ore:listAllveggie>;
+pamsveggies.removeItems([<minecraft:potato>, <minecraft:pumpkin>, <minecraft:beetroot>, <minecraft:carrot>]);
+
+mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 160, pamsseeds, 2000);
+mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 120, pamsfruits, 2000);
+mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 160, pamsveggies, 2000);

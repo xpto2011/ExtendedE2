@@ -11,11 +11,11 @@ recipes.remove(<techreborn:electric_furnace>);
 #recipes.remove(<techreborn:solid_fuel_generator>);
 recipes.remove(<techreborn:water_mill>);
 recipes.remove(<techreborn:wind_mill>);
-recipes.remove(<techreborn:solar_panel>);
-recipes.remove(<techreborn:solar_panel:1>);
-recipes.remove(<techreborn:solar_panel:2>);
-recipes.remove(<techreborn:solar_panel:3>);
-recipes.remove(<techreborn:solar_panel:4>);
+#recipes.remove(<techreborn:solar_panel>);
+#recipes.remove(<techreborn:solar_panel:1>);
+#recipes.remove(<techreborn:solar_panel:2>);
+#recipes.remove(<techreborn:solar_panel:3>);
+#recipes.remove(<techreborn:solar_panel:4>);
 
 #efab
 recipes.remove(<techreborn:cable:5>);
