@@ -66,6 +66,7 @@ recipes.remove(<rebornstorage:storagepart:4>);
 #recipes.remove(<rebornstorage:multicrafter:4>);
 recipes.remove(<refinedstorage:machine_casing>);
 recipes.remove(<refinedstorage:controller>);
+recipes.remove(<refinedstorage:pattern>);
 
 #Change Machine Casings
 recipes.addShaped(<refinedstorage:machine_casing>, [
