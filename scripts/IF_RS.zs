@@ -65,23 +65,34 @@ recipes.remove(<rebornstorage:storagepart:4>);
 #recipes.remove(<rebornstorage:multicrafter:3>);
 #recipes.remove(<rebornstorage:multicrafter:4>);
 recipes.remove(<refinedstorage:machine_casing>);
+recipes.remove(<refinedstorage:controller>);
 
 #Change Machine Casings
 recipes.addShaped(<refinedstorage:machine_casing>, [
-	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>], 
-	[<refinedstorage:quartz_enriched_iron>, <enderio:item_material:54>, <refinedstorage:quartz_enriched_iron>], 
+	[<enderio:item_material:2>, <refinedstorage:quartz_enriched_iron>, <enderio:item_material:2>], 
+	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:3>, <refinedstorage:quartz_enriched_iron>], 
+	[<enderio:item_material:2>, <refinedstorage:quartz_enriched_iron>, <enderio:item_material:2>]]);
+
+recipes.addShaped(<refinedstorage:controller>, [
+	[<refinedstorage:processor:5>, <refinedstorage:machine_casing>, <refinedstorage:processor:5>],
+	[<ore:itemSilicon>, <enderio:item_material:54>, <ore:itemSilicon>],
 	[<refinedstorage:quartz_enriched_iron>, <enderio:item_alloy_endergy_ingot:1>, <refinedstorage:quartz_enriched_iron>]]);
-recipes.addShaped(<refinedstorage:pattern>, [
-	[<ore:blockGlass>, <minecraft:redstone>, <ore:blockGlass>], 
-	[<minecraft:redstone>, <appliedenergistics2:material:52>, <minecraft:redstone>], 
-	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
+
 
 #Readd some of the recipes with AE2 integration
 recipes.addShapeless(<refinedstorage:exporter>, [<refinedstorage:cable>, <refinedstorage:core>, <refinedstorage:processor:4>, <appliedenergistics2:part:260>]);
+recipes.addShapeless(<refinedstorage:interface>, [<appliedenergistics2:interface>, <refinedstorage:exporter>, <refinedstorage:importer>]);
+recipes.addShapeless(<refinedstorage:fluid_interface>, [<appliedenergistics2:fluid_interface>, <refinedstorage:exporter>, <refinedstorage:importer>]);
+
 recipes.addShaped(<refinedstorage:wireless_transmitter>, [
 	[<refinedstorage:quartz_enriched_iron>, <appliedenergistics2:material:41>, <refinedstorage:quartz_enriched_iron>], 
 	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:machine_casing>, <refinedstorage:quartz_enriched_iron>], 
 	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:processor:5>, <refinedstorage:quartz_enriched_iron>]]);
+
+recipes.addShaped(<refinedstorage:pattern>, [
+	[<ore:blockGlass>, <minecraft:redstone>, <ore:blockGlass>], 
+	[<minecraft:redstone>, <appliedenergistics2:material:52>, <minecraft:redstone>], 
+	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>]]);
 
 recipes.addShaped(<refinedstorage:crafter>, [
 	[<refinedstorage:quartz_enriched_iron>, <refinedstorage:core>, <refinedstorage:quartz_enriched_iron>], 
@@ -102,9 +113,6 @@ recipes.addShaped(<rebornstorage:storagepart:4>, [
 	[<refinedstorage:processor:5>, <extracells:storage.component:9>, <refinedstorage:processor:5>], 
 	[<refinedstorage:fluid_storage_part:3>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:fluid_storage_part:3>], 
 	[<refinedstorage:processor:5>, <refinedstorage:fluid_storage_part:3>, <refinedstorage:processor:5>]]);
-
-recipes.addShapeless(<refinedstorage:interface>, [<appliedenergistics2:interface>, <refinedstorage:exporter>, <refinedstorage:importer>]);
-recipes.addShapeless(<refinedstorage:fluid_interface>, [<appliedenergistics2:fluid_interface>, <refinedstorage:exporter>, <refinedstorage:importer>]);
 
 #Quantum Storage
 recipes.remove(<quantumstorage:quantum_storage_unit>);
