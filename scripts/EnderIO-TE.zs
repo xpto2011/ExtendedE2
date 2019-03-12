@@ -71,14 +71,22 @@ recipes.addShaped(<thermalexpansion:frame:130>, [
 	[<ore:plateElectrum>, <thermalfoundation:material:515>, <ore:plateElectrum>],
 	[<thermalfoundation:material:515>, <thermalexpansion:frame:129>, <thermalfoundation:material:515>],
 	[<ore:plateElectrum>, <ore:gearElectrum>, <ore:plateElectrum>]]);
+
 #mods.thermalexpansion.Transposer.addFillRecipe(IItemStack output, IItemStack input, ILiquidStack fluid, int energy);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:146>, <thermalexpansion:frame:130>, 
 	<liquid:redstone> * 5000, 10000);
 
-recipes.addShaped(<thermalexpansion:frame:131>, [
-	[<ore:plateSignalum>, <thermalfoundation:glass_alloy:5>, <ore:plateSignalum>], 
-	[<thermalfoundation:material:832>, <thermalexpansion:frame:146>, <thermalfoundation:material:832>], 
-	[<ore:plateSignalum>, <ore:gearSignalum>, <ore:plateSignalum>]]);
+#recipes.addShaped(<thermalexpansion:frame:131>, [
+#	[<ore:plateSignalum>, <thermalfoundation:glass_alloy:5>, <ore:plateSignalum>], 
+#	[<thermalfoundation:material:832>, <thermalexpansion:frame:146>, <thermalfoundation:material:832>], 
+#	[<ore:plateSignalum>, <ore:gearSignalum>, <ore:plateSignalum>]]);
+
+#mods.actuallyadditions.Empowerer.addRecipe(IItemStack output, IItemStack input, 
+#	IItemStack modifier1, IItemStack modifier2, IItemStack modifier3, IItemStack modifier4, int energyPerStand, int time);
+
+mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:146>, 
+	<ore:plateSignalum>, <ore:gearSignalum>, <ore:dustCryotheum>, <thermalfoundation:material:832>, 1000000, 500);
+
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:147>, <thermalexpansion:frame:131>, 
 	<liquid:redstone> * 10000, 20000);
 

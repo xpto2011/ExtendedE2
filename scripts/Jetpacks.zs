@@ -6,6 +6,7 @@ recipes.remove(<simplyjetpacks:metaitemmods:26>);
 recipes.remove(<simplyjetpacks:metaitemmods:27>);
 recipes.remove(<simplyjetpacks:metaitemmods:28>);
 recipes.remove(<simplyjetpacks:metaitemmods:29>);
+recipes.remove(<simplyjetpacks:metaitemmods:30>);
 
 recipes.remove(<simplyjetpacks:itemjetpack:10>);
 
@@ -34,3 +35,8 @@ recipes.addShaped(<simplyjetpacks:itemjetpack:10>, [
 	[<ore:ingotLead>, <enderio:item_material:1>, <ore:ingotLead>], 
 	[<ore:ingotLead>, <thermalexpansion:capacitor>, <ore:ingotLead>], 
 	[<simplyjetpacks:metaitemmods:26>, <simplyjetpacks:metaitem:4>, <simplyjetpacks:metaitemmods:26>]]);
+
+recipes.addShaped(<simplyjetpacks:metaitemmods:30>, [
+	[<thermaldynamics:duct_0:5>, <thermalexpansion:frame:132>, <thermaldynamics:duct_0:5>],
+	[<ore:ingotEnderium>, <redstonearsenal:material:224>, <ore:ingotEnderium>], 
+	[<simplyjetpacks:metaitemmods:19>, <forge:bucketfilled>.withTag({FluidName: "ender", Amount: 1000}), <simplyjetpacks:metaitemmods:19>]]);
