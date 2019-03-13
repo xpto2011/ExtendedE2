@@ -1,6 +1,8 @@
 #Extended Extreme Modpack (EX^2)
 #Crafted by xpto2011
 
+import crafttweaker.item.IItemTransformer;
+
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped(<minecraft:bucket>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<minecraft:bucket> * 64, [[<em:chaosingot>, null, <em:chaosingot>], [null, <em:chaosingot>, null]]);
@@ -69,8 +71,15 @@ mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
 
 recipes.addShapeless(<minecraft:wheat_seeds>, [<minecraft:wheat>]);
 
+#Add Elytra Crafting Recipe (QoL)
+recipes.addShaped(<minecraft:elytra>, [
+    [<ore:endstone>, <minecraft:elytra>.reuse(), <ore:endstone>],
+    [<minecraft:end_rod>, <minecraft:potion>.withTag({Potion: "cofhcore:levitation+"}), <minecraft:end_rod>],
+    [<ore:endstone>, <minecraft:leather>, <ore:endstone>]]);
+mods.jei.JEI.addDescription(<minecraft:elytra>, "Elytra is not used in the crafting.");
+
 #Tinkers Construct
 mods.tconstruct.Fuel.registerFuel(<liquid:refined_fuel>, 60000);
 mods.tconstruct.Fuel.registerFuel(<liquid:rocket_fuel>, 60000);
 mods.tconstruct.Fuel.registerFuel(<liquid:diesel>, 60000);
-<ticmat:refinedglowstone>.attackHead = 14;
+<ticmat:refinedglowstone>.attackHead = 15;
