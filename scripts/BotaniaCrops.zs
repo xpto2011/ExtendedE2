@@ -96,8 +96,34 @@ var mseeds = [<mysticalagriculture:tier1_inferium_seeds>, <mysticalagradditions:
 <mysticalagriculture:hop_graphite_seeds>, <mysticalagriculture:alumite_seeds>,
 <mysticalagriculture:thorium_seeds>, <mysticalagriculture:boron_seeds>, 
 <mysticalagriculture:lithium_seeds>, <mysticalagriculture:magnesium_seeds>] as IItemStack[];
-for item in mseeds {
+#for item in mseeds {
+#	recipes.remove(item);
+#}
+var inferium_seeds = [<mysticalagriculture:tier2_inferium_seeds>, <mysticalagriculture:tier3_inferium_seeds>, 
+    <mysticalagriculture:tier4_inferium_seeds>, <mysticalagriculture:tier5_inferium_seeds>] as IItemStack[];
+
+#Agricraft Fix (Cheat)
+#Agricraft Seeds
+recipes.addShapeless("seedmax", <agricraft:agri_seed>,
+    [<agricraft:agri_seed>.marked("mark"), <ore:dustLumium>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>],
+    function(out, ins, cInfo){
+        return ins.mark.updateTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_growth: 10 as byte});
+    }, null);
+#Mystical Agriculture Seeds
+for i, item in mseeds {
 	recipes.remove(item);
+	recipes.addShapeless("ag_maxseed"+i, item, [item.marked("mark"), <ore:dustLumium>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>],
+	function(out, ins, cInfo){
+		return ins.mark.updateTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_growth: 10 as byte});
+	},
+	null);
+}
+for i, item in inferium_seeds {
+	recipes.addShapeless("ag_maxseed_inf"+i, item, [item.marked("mark"), <ore:dustLumium>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>],
+	function(out, ins, cInfo){
+		return ins.mark.updateTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_growth: 10 as byte});
+	},
+	null);
 }
 
 #Seed Crafting

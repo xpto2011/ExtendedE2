@@ -1,9 +1,6 @@
 #Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 
-import mods.modularmachinery.RecipeBuilder;
-import mods.modularmachinery.RecipePrimer;
-
 #Chicken Chunks (for FTB Utilities)
 recipes.remove(<chickenchunks:chunk_loader>);
 
