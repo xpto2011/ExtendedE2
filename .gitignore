@@ -63,6 +63,8 @@ config/tool_progression/blocks.cfg
 config/tool_progression/tools.cfg
 config/tool_progression/materials.cfg
 /config/jei/worldSettings.cfg
+/config/vanillafix/
+config/splash.properties
 
 #server
 server.properties
