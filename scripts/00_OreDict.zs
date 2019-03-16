@@ -42,6 +42,27 @@ recipes.removeByRecipeName("railcraft:ingot#7$2");
 recipes.removeByRecipeName("railcraft:ingot#8$2");
 recipes.removeByRecipeName("railcraft:ingot#8$1");
 
+recipes.removeByRecipeName("railcraft:nugget#1$1");
+recipes.removeByRecipeName("railcraft:nugget#1$2");
+recipes.removeByRecipeName("railcraft:nugget#5$1");
+recipes.removeByRecipeName("railcraft:nugget#5$2");
+recipes.removeByRecipeName("railcraft:nugget#9$1");
+recipes.removeByRecipeName("railcraft:nugget#9$2");
+recipes.removeByRecipeName("railcraft:nugget#2$1");
+recipes.removeByRecipeName("railcraft:nugget#2$2");
+recipes.removeByRecipeName("railcraft:nugget#4$1");
+recipes.removeByRecipeName("railcraft:nugget#4$2");
+recipes.removeByRecipeName("railcraft:nugget#3$1");
+recipes.removeByRecipeName("railcraft:nugget#3$2");
+recipes.removeByRecipeName("railcraft:nugget#6$1");
+recipes.removeByRecipeName("railcraft:nugget#6$2");
+recipes.removeByRecipeName("railcraft:nugget#0$2");
+recipes.removeByRecipeName("railcraft:nugget#0$1");
+recipes.removeByRecipeName("railcraft:nugget#7$1");
+recipes.removeByRecipeName("railcraft:nugget#7$2");
+recipes.removeByRecipeName("railcraft:nugget#8$2");
+recipes.removeByRecipeName("railcraft:nugget#8$1");
+
 #Glass Fixes
 recipes.removeByRecipeName("forestry:greenhouse_window");
 recipes.removeByRecipeName("forestry:greenhouse_window_roof");
