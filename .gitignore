@@ -65,6 +65,10 @@ config/tool_progression/materials.cfg
 config/splash.properties
 /config/jei/worldSettings.cfg
 /config/vanillafix/
+<<<<<<< HEAD
+=======
+/config/splash.properties
+>>>>>>> 0d9606e967741d14b7ca92e2a71ef8168134ae51
 
 #server
 server.properties
