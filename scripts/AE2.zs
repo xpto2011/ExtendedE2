@@ -32,12 +32,11 @@ recipes.remove(<extracells:storage.component>);
 recipes.remove(<appliedenergistics2:material:38>);
 recipes.remove(<appliedenergistics2:material:37>);
 recipes.remove(<appliedenergistics2:material:36>);
-#recipes.remove(<appliedenergistics2:energy_acceptor>);
+recipes.remove(<appliedenergistics2:energy_acceptor>);
 recipes.remove(<appliedenergistics2:controller>);
 
 #Presses (AE2 Inscriber sucks, no it really sucks)
 #AE2 Recipe system is actual cancer
-#efab
 mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:15>, [[<minecraft:iron_ingot>], [<minecraft:gold_block>], [<minecraft:iron_ingot>]]);
 mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:19>, [[<minecraft:iron_ingot>], [<refinedstorage:silicon>], [<minecraft:iron_ingot>]]);
 mods.techreborn.rollingMachine.addShaped(<appliedenergistics2:material:13>, [[<minecraft:iron_ingot>], [<appliedenergistics2:quartz_block>], [<minecraft:iron_ingot>]]);
@@ -71,10 +70,10 @@ recipes.addShaped(<appliedenergistics2:material:35>, [
 	[<ore:ingotElectrotineAlloy>, <ore:crystalCertusQuartz>, <ore:ingotElectrotineAlloy>], 
 	[<ore:crystalCertusQuartz>, <refinedstorage:storage_part>, <ore:crystalCertusQuartz>], 
 	[<ore:ingotElectrotineAlloy>, <ore:crystalCertusQuartz>, <ore:ingotElectrotineAlloy>]]);
-#recipes.addShaped(<appliedenergistics2:energy_acceptor>, [
-#	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <appliedenergistics2:material:24>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
-#	[<ore:crystalPureFluix>, <thermalexpansion:frame>, <ore:crystalPureFluix>], 
-#	[<ore:crystalOsmium>, <ore:plateCopper>, <ore:crystalOsmium>]]);
+recipes.addShaped(<appliedenergistics2:energy_acceptor>, [
+	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), <appliedenergistics2:material:24>, <forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000})], 
+	[<ore:crystalPureFluix>, <thermalexpansion:frame>, <ore:crystalPureFluix>], 
+	[<ore:crystalOsmium>, <ore:plateCopper>, <ore:crystalOsmium>]]);
 
 recipes.addShaped(<extracells:part.base:7>, [[<appliedenergistics2:drive>, <appliedenergistics2:material:43>, <appliedenergistics2:material:44>]]);
 recipes.addShaped(<appliedenergistics2:material:44> * 2, [[<appliedenergistics2:material:11>, <appliedenergistics2:material:9>, <appliedenergistics2:material:22>]]);
@@ -160,12 +159,9 @@ recipes.addShaped(<appliedenergistics2:quantum_ring>,
 #	[<ore:crystalOsmium>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>]]);
 
 #recipes.remove(<appliedenergistics2:controller>);
-mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:controller>, 5000000, <appliedenergistics2:energy_acceptor>, 
-	[<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), 
-	<forge:bucketfilled>.withTag({FluidName: "cloud_seed_concentrated", Amount: 1000}), 
-	<ore:plateIridiumAlloy>, <ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>,
+mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:controller>, 20000000, <appliedenergistics2:energy_acceptor>, 
+	[<ore:plateIridiumAlloy>, <ore:crystalPureFluix>, <ore:crystalPureFluix>,
 	<enderio:item_material:54>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>, <ore:crystalOsmium>,
 	<refinedstorage:controller>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>,
-	<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <enderio:item_alloy_endergy_nugget:3>,
-	<ore:gearVibrant>]);
+	<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <enderio:item_alloy_endergy_nugget:3>, <ore:gearVibrant>]);
 

@@ -131,8 +131,8 @@
       "blockName": "tile.techreborn:ore",
       "blockNiceName": "Tungsten",
       "meta": 8,
-      "veinSize": 2,
-      "veinsPerChunk": 2,
+      "veinSize": 4,
+      "veinsPerChunk": 4,
       "minYHeight": 10,
       "maxYHeight": 250,
       "shouldSpawn": true

@@ -3,16 +3,16 @@
 
   <capacitor key="enderio:block_simple_alloy_smelter/intake" base="30" scaler="FIXED" />
   <capacitor key="enderio:block_simple_alloy_smelter/buffer" base="2000" scaler="FIXED" />
-  <capacitor key="enderio:block_simple_alloy_smelter/use" base="15" scaler="FIXED" />
-  <capacitor key="enderio:block_simple_alloy_smelter/loss" base="5" scaler="CENT" />
+  <capacitor key="enderio:block_simple_alloy_smelter/use" base="80" scaler="FIXED" />
+  <capacitor key="enderio:block_simple_alloy_smelter/loss" base="0" scaler="CENT" />
 
   <capacitor key="enderio:block_alloy_smelter/intake" base="1200" scaler="QUADRATIC" />
   <capacitor key="enderio:block_alloy_smelter/buffer" base="100000" scaler="QUADRATIC" />
   <capacitor key="enderio:block_alloy_smelter/use" base="400" scaler="QUADRATIC" />
 
-  <capacitor key="enderio:block_enhanced_alloy_smelter/intake" base="1800" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_alloy_smelter/intake" base="1800" scaler="CUBIC" />
   <capacitor key="enderio:block_enhanced_alloy_smelter/buffer" base="500000" scaler="QUADRATIC" />
-  <capacitor key="enderio:block_enhanced_alloy_smelter/use" base="800" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_alloy_smelter/use" base="400" scaler="CUBIC" />
   <capacitor key="enderio:block_enhanced_alloy_smelter/efficiency" base="150" scaler="CENT" />
   <capacitor key="enderio:block_enhanced_alloy_smelter/double_op_chance" base="1" scaler="QUADRATIC" />
   
@@ -20,13 +20,13 @@
   <capacitor key="enderio:block_buffer/buffer_creative" base="500000" scaler="FIXED" />
   <capacitor key="enderio:block_buffer/use_creative" base="0" scaler="FIXED" />
   
-  <capacitor key="enderio:block_buffer/intake" base="25000" scaler="CUBIC" />
+  <capacitor key="enderio:block_buffer/intake" base="2500" scaler="CUBIC" />
   <capacitor key="enderio:block_buffer/buffer" base="100000" scaler="POWER" />
   <capacitor key="enderio:block_buffer/use" base="0" scaler="FIXED" />
 
-  <capacitor key="enderio:block_farm_station/intake" base="10000" scaler="RANGE" />
+  <capacitor key="enderio:block_farm_station/intake" base="1000" scaler="RANGE" />
   <capacitor key="enderio:block_farm_station/buffer" base="250000" scaler="RANGE" />
-  <capacitor key="enderio:block_farm_station/use" base="100" scaler="RANGE" />
+  <capacitor key="enderio:block_farm_station/use" base="40" scaler="RANGE" />
   <capacitor key="enderio:block_farm_station/base_size" base="1" scaler="FIXED" />
   <capacitor key="enderio:block_farm_station/bonus_size" base="2" scaler="IDENTITY" />
   <capacitor key="enderio:block_farm_station/stacksize_limit" base="16" scaler="QUADRATIC" />
@@ -84,7 +84,7 @@
 
   <capacitor key="enderio:block_attractor_obelisk/intake" base="640" scaler="QUADRATIC" />
   <capacitor key="enderio:block_attractor_obelisk/buffer" base="100000" scaler="POWER" />
-  <capacitor key="enderio:block_attractor_obelisk/use" base="80" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_attractor_obelisk/use" base="40" scaler="QUADRATIC" />
   <capacitor key="enderio:block_attractor_obelisk/range" base="16" scaler="QUADRATIC" />
   
   <capacitor key="enderio:block_aversion_obelisk/intake" base="640" scaler="CUBIC" />
@@ -94,7 +94,7 @@
 
   <capacitor key="enderio:block_inhibitor_obelisk/intake" base="640" scaler="CUBIC" />
   <capacitor key="enderio:block_inhibitor_obelisk/buffer" base="100000" scaler="POWER" />
-  <capacitor key="enderio:block_inhibitor_obelisk/use" base="80" scaler="CUBIC" />
+  <capacitor key="enderio:block_inhibitor_obelisk/use" base="40" scaler="CUBIC" />
   <capacitor key="enderio:block_inhibitor_obelisk/range" base="8" scaler="RANGE" />
   
   <capacitor key="enderio:block_relocator_obelisk/intake" base="640" scaler="CUBIC" />
@@ -107,22 +107,22 @@
   <capacitor key="enderio:block_weather_obelisk/use" base="640" scaler="POWER" />
   <capacitor key="enderio:block_weather_obelisk/fluid_use" base="4" scaler="POWER" />
   
-  <capacitor key="enderio:block_painter/intake" base="1600" scaler="POWER" />
+  <capacitor key="enderio:block_painter/intake" base="800" scaler="POWER" />
   <capacitor key="enderio:block_painter/buffer" base="100000" scaler="POWER" />
-  <capacitor key="enderio:block_painter/use" base="480" scaler="POWER" />
+  <capacitor key="enderio:block_painter/use" base="120" scaler="POWER" />
   
   <capacitor key="enderio:block_sag_mill/intake" base="10000" scaler="QUADRATIC" />
   <capacitor key="enderio:block_sag_mill/buffer" base="100000" scaler="QUADRATIC" />
-  <capacitor key="enderio:block_sag_mill/use" base="640" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_sag_mill/use" base="400" scaler="QUADRATIC" />
   
   <capacitor key="enderio:block_simple_sag_mill/intake" base="300" scaler="FIXED" />
   <capacitor key="enderio:block_simple_sag_mill/buffer" base="2000" scaler="FIXED" />
-  <capacitor key="enderio:block_simple_sag_mill/use" base="200" scaler="FIXED" />
-  <capacitor key="enderio:block_simple_sag_mill/loss" base="5" scaler="CENT" />
+  <capacitor key="enderio:block_simple_sag_mill/use" base="120" scaler="FIXED" />
+  <capacitor key="enderio:block_simple_sag_mill/loss" base="0" scaler="CENT" />
 
-  <capacitor key="enderio:block_enhanced_sag_mill/intake" base="20000" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_sag_mill/intake" base="20000" scaler="CUBIC" />
   <capacitor key="enderio:block_enhanced_sag_mill/buffer" base="500000" scaler="QUADRATIC" />
-  <capacitor key="enderio:block_enhanced_sag_mill/use" base="1280" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_enhanced_sag_mill/use" base="400" scaler="CUBIC" />
   <capacitor key="enderio:block_enhanced_sag_mill/efficiency" base="150" scaler="CENT" />
   <capacitor key="enderio:block_enhanced_sag_mill/double_op_chance" base="1" scaler="QUADRATIC" />
   
@@ -137,7 +137,7 @@
   
   <capacitor key="enderio:block_powered_spawner/intake" base="20000" scaler="SPAWNER" />
   <capacitor key="enderio:block_powered_spawner/buffer" base="1000000" scaler="QUADRATIC" />
-  <capacitor key="enderio:block_powered_spawner/use" base="640" scaler="SPAWNER" />
+  <capacitor key="enderio:block_powered_spawner/use" base="900" scaler="SPAWNER" />
   <capacitor key="enderio:block_powered_spawner/speed" base="1" scaler="QUADRATIC" />
   
   <capacitor key="enderio:block_transceiver/intake" base="51200000" scaler="POWER" />
@@ -146,11 +146,11 @@
 
   <capacitor key="enderio:block_vat/intake" base="10000" scaler="POWER" />
   <capacitor key="enderio:block_vat/buffer" base="100000" scaler="POWER" />
-  <capacitor key="enderio:block_vat/use" base="250" scaler="CHEMICAL" />
+  <capacitor key="enderio:block_vat/use" base="100" scaler="CHEMICAL" />
 
   <capacitor key="enderio:block_enhanced_vat/intake" base="20000" scaler="POWER" />
   <capacitor key="enderio:block_enhanced_vat/buffer" base="500000" scaler="POWER" />
-  <capacitor key="enderio:block_enhanced_vat/use" base="450" scaler="CHEMICAL" />
+  <capacitor key="enderio:block_enhanced_vat/use" base="200" scaler="CHEMICAL" />
   <capacitor key="enderio:block_enhanced_vat/efficiency" base="150" scaler="CENT" />
   <capacitor key="enderio:block_enhanced_vat/double_op_chance" base="1" scaler="QUADRATIC" />
   
@@ -177,15 +177,15 @@
   <capacitor key="enderio:block_dialing_device/use_teleport" base="1000" scaler="FIXED" />
   <capacitor key="enderio:block_dialing_device/use_paper" base="1000" scaler="FIXED" />
   
-  <capacitor key="enderio:block_impulse_hopper/intake" base="10000" scaler="POWER" />
+  <capacitor key="enderio:block_impulse_hopper/intake" base="1000" scaler="POWER" />
   <capacitor key="enderio:block_impulse_hopper/buffer" base="100000" scaler="POWER" />
   <capacitor key="enderio:block_impulse_hopper/use" base="16" scaler="POWER" />
   <capacitor key="enderio:block_impulse_hopper/user_item" base="10" scaler="FIXED" />
   <capacitor key="enderio:block_impulse_hopper/speed" base="1" scaler="QUADRATIC" />
   
-  <capacitor key="enderio:block_crafter/intake" base="12000" scaler="POWER" />
+  <capacitor key="enderio:block_crafter/intake" base="1200" scaler="POWER" />
   <capacitor key="enderio:block_crafter/buffer" base="100000" scaler="POWER" />
-  <capacitor key="enderio:block_crafter/use" base="40" scaler="QUADRATIC" />
+  <capacitor key="enderio:block_crafter/use" base="5" scaler="POWER" />
   <capacitor key="enderio:block_crafter/use_craft" base="10" scaler="FIXED" />
   <capacitor key="enderio:block_crafter/speed" base="2" scaler="CUBIC" />
   
