@@ -18,7 +18,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
-			"cluster-count": 1,
+			"cluster-count": 3,
 			"chunk-chance": 12,
 			"min-height": 0,
 			"max-height": 20,
@@ -32,28 +32,6 @@
 				]
 			}
 		},
-		"clathrate_redstone_mars": {
-			"distribution": "uniform",
-			"generator": {
-				"block": { 					 					
-					"name": "thermalfoundation:ore_fluid", 					 					
-					"metadata": 2 				 				
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 16
-			},
-			"cluster-count": 3,
-			"min-height": 17,
-			"max-height": 32,
-			"retrogen": "false",
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					13
-				]
-			}
-		},
 		"glowstone_clathrate": {
 			"distribution": "uniform",
 			"generator": {
@@ -61,11 +39,11 @@
 					{
 						"name": "thermalfoundation:ore_fluid",
 						"metadata": 3,
-						"weight": 90
+						"weight": 95
 					},
 					{
 						"name": "thermalfoundation:fluid_glowstone",
-						"weight": 10
+						"weight": 5
 					}
 				],
 				"material": "minecraft:netherrack",
@@ -80,7 +58,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					11, 12
+					-1
 				]
 			}
 		},
@@ -92,7 +70,7 @@
 					"metadata": 4
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 20
+				"cluster-size": 16
 			},
 			"cluster-count": 10,
 			"chunk-chance": 8,

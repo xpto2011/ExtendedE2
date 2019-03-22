@@ -34,7 +34,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<projecte:item.pe_matter:1>, [[<ap
 mods.extendedcrafting.TableCrafting.addShaped(<projecte:item.pe_matter>, [[<projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>], [<projecte:item.pe_fuel:2>, <ore:blockBlutonium>, <projecte:item.pe_fuel:2>], [<projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>, <projecte:item.pe_fuel:2>]]);
 mods.extendedcrafting.TableCrafting.addShaped(<projecte:item.pe_rm_pick>, [[<projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>, <projecte:item.pe_matter:1>], [null, <projecte:item.pe_dm_pick>, null], [null, <ore:elvenDragonstone>, null]]);
 mods.extendedcrafting.TableCrafting.addShaped(<projecte:item.pe_dm_pick>, [[<projecte:item.pe_matter>, <projecte:item.pe_matter>, <projecte:item.pe_matter>], [null, <minecraft:diamond_pickaxe>, null], [null, <ore:manaDiamond>, null]]);
-mods.extendedcrafting.TableCrafting.addShaped(<projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<projecte:fuel_block:2>, <minecraft:nether_star>, <projecte:fuel_block:2>], [<ore:crystalDilithium>, <ironchest:iron_chest:6>, <ore:crystalDilithium>]]);
+mods.extendedcrafting.TableCrafting.addShaped(<projecte:alchemical_chest>, [[<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:1>, <projecte:item.pe_covalence_dust:2>], [<projecte:fuel_block:2>, <minecraft:nether_star>, <projecte:fuel_block:2>], [<extraplanets:tier11_items:1>, <ironchest:iron_chest:6>, <extraplanets:tier11_items:1>]]);
 
 #Philosopher's Stone
 mods.extendedcrafting.TableCrafting.addShaped(<projecte:item.pe_philosophers_stone>, [
@@ -99,13 +99,13 @@ mods.extendedcrafting.TableCrafting.addShaped(<projecte:condenser_mk1>, [
 #Energy Condenser mk2
 mods.extendedcrafting.TableCrafting.addShaped(<projecte:condenser_mk2>, [
 	[<projecte:matter_block>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block>],
-	[<projecte:matter_block:1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:matter_block:1>],
-	[<projecte:matter_block:1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:matter_block:1>],
-	[<projecte:matter_block:1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:matter_block:1>],
-	[<projecte:matter_block:1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:condenser_mk1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:matter_block:1>],
-	[<projecte:matter_block:1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:matter_block:1>],
-	[<projecte:matter_block:1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:matter_block:1>],
-	[<projecte:matter_block:1>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <ore:crystalDilithium>, <projecte:matter_block:1>],
+	[<projecte:matter_block:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:matter_block:1>],
+	[<projecte:matter_block:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:matter_block:1>],
+	[<projecte:matter_block:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:matter_block:1>],
+	[<projecte:matter_block:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:condenser_mk1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:matter_block:1>],
+	[<projecte:matter_block:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:matter_block:1>],
+	[<projecte:matter_block:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:matter_block:1>],
+	[<projecte:matter_block:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <extraplanets:tier11_items:1>, <projecte:matter_block:1>],
 	[<projecte:matter_block>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block:1>, <projecte:matter_block>]]);
 
 #Tome of Knowledge

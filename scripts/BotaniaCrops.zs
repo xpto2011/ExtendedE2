@@ -95,7 +95,8 @@ var mseeds = [<mysticalagriculture:tier1_inferium_seeds>, <mysticalagradditions:
 <mysticalagriculture:quartz_enriched_iron_seeds>, <mysticalagriculture:graphite_seeds>,
 <mysticalagriculture:hop_graphite_seeds>, <mysticalagriculture:alumite_seeds>,
 <mysticalagriculture:thorium_seeds>, <mysticalagriculture:boron_seeds>, 
-<mysticalagriculture:lithium_seeds>, <mysticalagriculture:magnesium_seeds>] as IItemStack[];
+<mysticalagriculture:lithium_seeds>, <mysticalagriculture:magnesium_seeds>, 
+<mysticalagriculture:meteoric_iron_seeds>] as IItemStack[];
 #for item in mseeds {
 #	recipes.remove(item);
 #}
@@ -478,6 +479,10 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:apatite_seeds>, [
     <mysticalagriculture:crafting:19>, 
     <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:crafting:2>, 
     <ore:blockApatite>, <ore:blockApatite>, <ore:blockApatite>, <ore:blockApatite>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:meteoric_iron_seeds>, [
+    <mysticalagriculture:crafting:20>, 
+    <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:crafting:3>, 
+    <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>], 20000);
 
 mods.botania.RuneAltar.addRecipe(<mysticalagradditions:nether_star_seeds>, [
     <mysticalagriculture:wither_skeleton_seeds>, 

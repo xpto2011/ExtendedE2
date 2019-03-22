@@ -287,20 +287,18 @@
 		"nether-uranium": {
 			"distribution": "uniform",
 			"generator": {
-				"block": [{
+				"block": {
 					"name": "netherendingores:ore_nether_modded_1",
 					"metadata": 12,
 					"weight": 92
-				},{"name": "excore:dense_nuranium",
-					"weight": 8
-				}],
+				},
 				"material": "minecraft:netherrack",
 				"cluster-size": 4
 			},
 			"cluster-count": 4,
 			"min-height": 20,
 			"max-height": 100,
-			"retrogen": "false",
+			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",

@@ -60,7 +60,7 @@ recipes.remove(<quantumflux:craftingpiece:3>); #ender crystal
 recipes.addShaped(<quantumflux:craftingpiece> * 2, [
     [null, <ore:gemRuby>, null], 
     [<mekanism:controlcircuit:2>, <quantumflux:craftingpiece:3>, <mekanism:controlcircuit:2>], 
-    [<mekanism:controlcircuit:2>, <ore:crystalDilithium>, <mekanism:controlcircuit:2>]]);
+    [<mekanism:controlcircuit:2>, <ore:ingotDesh>, <mekanism:controlcircuit:2>]]);
 
 recipes.addShaped(<quantumflux:craftingpiece:2> * 2, [
     [<mekanism:controlcircuit:2>, <mekanism:controlcircuit:2>, <ore:gemRuby>], 
@@ -73,7 +73,7 @@ recipes.addShaped(<quantumflux:imaginarytime>, [
 
 recipes.addShaped(<quantumflux:craftingpiece:1> * 2, [
     [<quantumflux:darkstone>, <ore:plateGold>, <quantumflux:darkstone>], 
-    [<ore:plateGold>, <advancedrocketry:wafer>, <ore:plateGold>], 
+    [<ore:plateGold>, <extraplanets:ingot_mercury>, <ore:plateGold>], 
     [<quantumflux:darkstone>, <ore:plateGold>, <quantumflux:darkstone>]]);
 
 recipes.addShaped(<quantumflux:craftingpiece:3> * 1, [

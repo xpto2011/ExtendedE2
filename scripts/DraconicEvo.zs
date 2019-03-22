@@ -50,7 +50,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>,
 #efab
 recipes.addShaped(<draconicevolution:draconic_core>, [
 	[<ore:ingotDraconium>, <ore:ingotTitanium>, <ore:ingotDraconium>], 
-	[<ore:ingotTitanium>, <ore:crystalDilithium>, <ore:ingotTitanium>], 
+	[<ore:ingotTitanium>, <extraplanets:tier8_items:6>, <ore:ingotTitanium>], 
 	[<ore:ingotDraconium>,<ore:ingotTitanium>, <ore:ingotDraconium>]]);
 mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>, [
 	[<ore:ingotCrystallinePinkSlime>, <draconicevolution:draconic_core>, <ore:ingotDraconium>], 

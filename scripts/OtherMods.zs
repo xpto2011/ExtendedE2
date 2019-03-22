@@ -57,6 +57,13 @@ recipes.addShaped(<bigreactors:reactorglass>, [
 	[<thermalfoundation:glass:4>, <bigreactors:reactorcasing>, <thermalfoundation:glass:4>], 
 	[null, null, null]]);
 
+recipes.remove(<bigreactors:ingotblutonium>);
+recipes.addShaped(<bigreactors:blockblutonium>, [
+	[<ore:blockMithril>, <ore:blockCobalt>, <ore:blockMithril>], 
+	[<ore:ingotUranium238>, <ore:ingotUranium238>, <ore:ingotUranium238>], 
+	[<ore:blockCyanite>, <actuallyadditions:block_crystal_empowered:1>, <ore:blockCyanite>]]);
+
+
 #Recipe Fixes
 recipes.remove(<actuallyadditions:item_misc:4> * 3);
 recipes.addShaped(<actuallyadditions:item_misc:4> * 3, [[<ore:cropWheat>], [<ore:cropWheat>], [<ore:cropWheat>]]);

@@ -27,10 +27,10 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
 mods.extendedcrafting.TableCrafting.addShapeless(4, <avaritia:resource:5>, [<extendedcrafting:singularity_ultimate>,
 	<projecte:matter_block>, <redstonearsenal:storage:1>, <avaritia:cosmic_meatballs>, <avaritia:ultimate_stew>, <avaritia:endest_pearl>, <ore:blockNetherStar>, <botania:rune:13>, <botania:rune:10>,
 	<mekanism:basicblock:2>, <draconicevolution:draconic_block>, <appliedenergistics2:material:47>, <extracells:storage.component:3>, <industrialforegoing:pink_slime>, <extrautils2:ineffableglass:2>, <botania:manaresource:14>,
-	<thermalfoundation:storage_alloy:4>, <minecraft:sponge>, <techreborn:storage:2>, <enderio:item_material:14>, <enderio:item_material:15>, <techreborn:storage2>, <ore:crystalDilithium>, <ore:blockMagnesium>, 
+	<thermalfoundation:storage_alloy:4>, <minecraft:sponge>, <techreborn:storage:2>, <enderio:item_material:14>, <enderio:item_material:15>, <techreborn:storage2>, <ore:ingotMeteoricIron>, <ore:blockMagnesium>, 
 	<rftools:infused_diamond>, <ore:blockLudicrite>, <enderio:item_material:18>, <techreborn:storage:3>, 
 	<tconstruct:metal:6>, <immersiveengineering:material:19>, <extracells:storage.component:17>, <extracells:storage.component:10>, <techreborn:uumatter>,
-	<thermalfoundation:storage_alloy:7>, <enderio:block_alloy:2>, <enderio:item_material:17>, <techreborn:part:38>, <extendedcrafting:storage:7>]);
+	<thermalfoundation:storage_alloy:7>, <enderio:block_alloy:2>, <enderio:item_material:17>, <techreborn:part:38>, <extendedcrafting:storage:7>, <extraplanets:tier8_items:6>]);
 
 #Chaos Catalyst
 mods.extendedcrafting.TableCrafting.addShapeless(4, <em:chaoscatalyst>, [
@@ -41,16 +41,17 @@ mods.extendedcrafting.TableCrafting.addShapeless(4, <em:chaoscatalyst>, [
 	<ore:blockBeryllium>, <ore:blockZirconium>, <mekanism:basicblock:8>, <techreborn:fusion_coil>, <rftools:machine_frame>, <ae2stuff:wireless>, 
 	<thermalexpansion:frame>, <thermalexpansion:frame:64>, <thermalfoundation:upgrade:35>, <nuclearcraft:fission_controller_new_fixed>,
 	<enderio:item_material:54>, <techreborn:part:9>, <techreborn:part:12>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagradditions:storage>,
-	<draconicevolution:infused_obsidian>, <enderio:block_reinforced_obsidian>, <environmentaltech:aethium>, <techreborn:plates:37>, <harvestcraft:deluxechickencurryitem>]);
+	<draconicevolution:infused_obsidian>, <enderio:block_reinforced_obsidian>, <environmentaltech:aethium>, <techreborn:plates:37>, <harvestcraft:deluxechickencurryitem>,
+	<ore:waferBasic>, <ore:waferAdvanced>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(<em:chaosingot>, [[null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, null],
-	[null, <avaritia:resource:6>, <techreborn:part:3>, <techreborn:part:3>, <techreborn:part:3>, <techreborn:part:3>, <techreborn:part:3>, <avaritia:resource:6>, null],
-	[null, <avaritia:resource:6>, <techreborn:part:3>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <techreborn:part:3>, <avaritia:resource:6>, null],
-	[null, <avaritia:resource:6>, <techreborn:part:3>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <techreborn:part:3>, <avaritia:resource:6>, null],
-	[null, <avaritia:resource:6>, <techreborn:part:3>, <em:chaoscatalyst>, <ore:ingotUltimate>, <em:chaoscatalyst>, <techreborn:part:3>, <avaritia:resource:6>, null],
-	[null, <avaritia:resource:6>, <techreborn:part:3>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <techreborn:part:3>, <avaritia:resource:6>, null],
-	[null, <avaritia:resource:6>, <techreborn:part:3>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <techreborn:part:3>, <avaritia:resource:6>, null],
-	[null, <avaritia:resource:6>, <techreborn:part:3>, <techreborn:part:3>, <techreborn:part:3>, <techreborn:part:3>, <techreborn:part:3>, <avaritia:resource:6>, null],
+	[null, <avaritia:resource:6>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <avaritia:resource:6>, null],
+	[null, <avaritia:resource:6>, <extraplanets:tier5_items:5>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <extraplanets:tier5_items:5>, <avaritia:resource:6>, null],
+	[null, <avaritia:resource:6>, <extraplanets:tier5_items:5>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <extraplanets:tier5_items:5>, <avaritia:resource:6>, null],
+	[null, <avaritia:resource:6>, <extraplanets:tier5_items:5>, <em:chaoscatalyst>, <ore:ingotUltimate>, <em:chaoscatalyst>, <extraplanets:tier5_items:5>, <avaritia:resource:6>, null],
+	[null, <avaritia:resource:6>, <extraplanets:tier5_items:5>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <extraplanets:tier5_items:5>, <avaritia:resource:6>, null],
+	[null, <avaritia:resource:6>, <extraplanets:tier5_items:5>, <em:chaoscatalyst>, <draconicevolution:chaotic_core>, <em:chaoscatalyst>, <extraplanets:tier5_items:5>, <avaritia:resource:6>, null],
+	[null, <avaritia:resource:6>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <extraplanets:tier5_items:5>, <avaritia:resource:6>, null],
 	[null, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, <avaritia:resource:6>, null]]);
 
 #Refined Avaritia

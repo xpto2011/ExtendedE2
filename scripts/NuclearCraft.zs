@@ -20,25 +20,11 @@ recipes.addShaped(<nuclearcraft:rock_crusher_idle>, [
     [<ore:actuator>, <ore:chassis>, <ore:actuator>], 
     [<ore:plateDU>, <ore:ingotTough>, <ore:plateDU>]]);
 
+recipes.remove(<nuclearcraft:part>);
 recipes.addShaped(<nuclearcraft:part> * 4, [
     [<ore:dustGraphite>, <ore:plateLead>, <ore:dustGraphite>], 
     [<ore:plateLead>, <ore:ingotTough>, <ore:plateLead>],
     [<ore:dustGraphite>, <ore:plateLead>, <ore:dustGraphite>]]);
-
-recipes.addShaped(<nuclearcraft:part:1>, [
-    [<ore:dustRedstone>, <ore:ingotTough>, <ore:dustRedstone>], 
-    [<ore:ingotTough>, <ore:plateBasic>, <ore:ingotTough>], 
-    [<ore:dustRedstone>, <ore:ingotTough>, <ore:dustRedstone>]]);
-
-recipes.addShaped(<nuclearcraft:part:2>, [
-    [<ore:dustSulfur>, <ore:ingotUranium238>, <ore:dustSulfur>], 
-    [<ore:ingotUranium238>, <ore:plateAdvanced>, <ore:ingotUranium238>], 
-    [<ore:dustSulfur>, <ore:ingotUranium238>, <ore:dustSulfur>]]);
-
-recipes.addShaped(<nuclearcraft:part:3>, [
-    [<ore:dustCrystalBinder>, <ore:ingotBoron>, <ore:dustCrystalBinder>], 
-    [<ore:ingotBoron>, <ore:plateDU>, <ore:ingotBoron>], 
-    [<ore:dustCrystalBinder>, <ore:ingotBoron>, <ore:dustCrystalBinder>]]);
 
 recipes.remove(<nuclearcraft:part:4>);
 recipes.addShaped(<nuclearcraft:part:4> * 4, 
