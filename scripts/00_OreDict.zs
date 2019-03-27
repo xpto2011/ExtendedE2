@@ -63,6 +63,32 @@ recipes.removeByRecipeName("railcraft:nugget#7$2");
 recipes.removeByRecipeName("railcraft:nugget#8$2");
 recipes.removeByRecipeName("railcraft:nugget#8$1");
 
+recipes.removeByRecipeName("railcraft:metal#1$1");
+recipes.removeByRecipeName("railcraft:metal#1$2");
+recipes.removeByRecipeName("railcraft:metal#5$1");
+recipes.removeByRecipeName("railcraft:metal#5$2");
+recipes.removeByRecipeName("railcraft:metal#9$1");
+recipes.removeByRecipeName("railcraft:metal#9$2");
+recipes.removeByRecipeName("railcraft:metal#2$1");
+recipes.removeByRecipeName("railcraft:metal#2$2");
+recipes.removeByRecipeName("railcraft:metal#4$1");
+recipes.removeByRecipeName("railcraft:metal#4$2");
+recipes.removeByRecipeName("railcraft:metal#3$1");
+recipes.removeByRecipeName("railcraft:metal#3$2");
+recipes.removeByRecipeName("railcraft:metal#6$1");
+recipes.removeByRecipeName("railcraft:metal#6$2");
+recipes.removeByRecipeName("railcraft:metal#0$2");
+recipes.removeByRecipeName("railcraft:metal#0$1");
+recipes.removeByRecipeName("railcraft:metal#7$1");
+recipes.removeByRecipeName("railcraft:metal#7$2");
+recipes.removeByRecipeName("railcraft:metal#8$2");
+recipes.removeByRecipeName("railcraft:metal#8$1");
+
+recipes.removeByRecipeName("mekanism:basicblock_1");
+recipes.removeByRecipeName("mekanism:basicblock_5");
+recipes.removeByRecipeName("mekanism:basicblock_13");
+
+
 #Glass Fixes
 recipes.removeByRecipeName("forestry:greenhouse_window");
 recipes.removeByRecipeName("forestry:greenhouse_window_roof");

@@ -161,7 +161,7 @@ recipes.addShaped(<appliedenergistics2:quantum_ring>,
 #recipes.remove(<appliedenergistics2:controller>);
 mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:controller>, 20000000, <appliedenergistics2:energy_acceptor>, 
 	[<ore:plateIridiumAlloy>, <ore:crystalPureFluix>, <ore:crystalPureFluix>,
-	<enderio:item_material:54>, <thermalfoundation:upgrade:35>, <ore:crystalOsmium>, <ore:crystalOsmium>,
+	<thermalfoundation:upgrade:35>, <ore:crystalOsmium>, <ore:crystalOsmium>,
 	<refinedstorage:controller>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <enderio:item_alloy_endergy_nugget:3>, <ore:gearVibrant>]);
 

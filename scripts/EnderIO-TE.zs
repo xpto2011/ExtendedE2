@@ -86,6 +86,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:146>, <th
 
 mods.actuallyadditions.Empowerer.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:146>, 
 	<ore:plateSignalum>, <ore:gearSignalum>, <ore:dustCryotheum>, <thermalfoundation:material:832>, 1000000, 500);
+mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame:131>, 2000000, <thermalexpansion:frame:146>, [<ore:plateSignalum>, <ore:gearSignalum>, <ore:dustCryotheum>, <thermalfoundation:material:832>]);
 
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:147>, <thermalexpansion:frame:131>, 
 	<liquid:redstone> * 10000, 20000);
@@ -95,7 +96,7 @@ recipes.addShaped(<thermalexpansion:frame:132>, [
 	[<ore:dustAerotheum>, <thermalexpansion:frame:147>, <ore:dustPetrotheum>], 
 	[<ore:plateEnderium>, <ore:gearEnderium>, <ore:plateEnderium>]]);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:148>, <thermalexpansion:frame:132>, 
-	<liquid:enderium> * 4000, 20000);
+	<liquid:ender> * 4000, 20000);
 
 
 #EnderIO
@@ -103,7 +104,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:148>, <th
 mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <enderio:item_material:51>);
 mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:1>, <enderio:item_material>, <thermalfoundation:glass:3> * 4, 9200);
 
-#Remove enchanter (to the efab)
 recipes.remove(<enderio:block_enchanter>);
 recipes.addShaped(<enderio:block_enchanter>, [
 	[<enderio:item_material:17>, <minecraft:enchanting_table>,<enderio:item_material:17>], 
@@ -228,7 +228,7 @@ recipes.addShaped(<enderio:block_cap_bank:3>, [
 	[<ore:ingotVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:ingotVibrantAlloy>]]);
 recipes.addShaped(<enderio:block_cap_bank:3>, [
 	[<ore:ingotVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:ingotVibrantAlloy>],
-	[<enderio:item_basic_capacitor:2>, <thermalexpansion:frame:148>, <enderio:item_basic_capacitor:2>], 
+	[<ore:ingotVibrantAlloy>, <thermalexpansion:frame:148>, <ore:ingotVibrantAlloy>], 
 	[<ore:ingotVibrantAlloy>, <enderio:item_basic_capacitor:2>, <ore:ingotVibrantAlloy>]]);
 
 #Endergy Conduits
