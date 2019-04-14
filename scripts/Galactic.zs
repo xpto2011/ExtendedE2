@@ -21,7 +21,10 @@ recipes.addShaped(<extraplanets:advanced_launch_pad> * 5, [
     [<galacticraftplanets:item_basic_asteroids:6>, <galacticraftplanets:item_basic_asteroids:6>, <galacticraftplanets:item_basic_asteroids:6>], 
     [<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>]]);
 
-#Galacticraft
+#mods.thermalexpansion.Transposer.addFillRecipe(IItemStack output, IItemStack input, ILiquidStack fluid, int energy);
+mods.thermalexpansion.Transposer.addFillRecipe(<galacticraftcore:fuel_canister_partial:1>, <galacticraftcore:oil_canister_partial:1001>, <liquid:refined_fuel> * 1000, 30000);
+
+#Main
 recipes.remove(<galacticraftcore:rocket_workbench>);
 recipes.remove(<galacticraftcore:fuel_loader>);
 recipes.remove(<galacticraftcore:machine2:4>);

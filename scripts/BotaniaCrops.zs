@@ -127,6 +127,11 @@ for i, item in inferium_seeds {
 	null);
 }
 
+recipes.addShaped(<mysticalagriculture:crafting:33>, [
+    [null, <mysticalagriculture:crafting>, null],
+    [<mysticalagriculture:crafting>, <ore:ingotIron>, <mysticalagriculture:crafting>],
+    [null, <mysticalagriculture:crafting>, null]]);
+
 #Seed Crafting
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:coal_seeds>, 
     [<mysticalagriculture:crafting:19>, 

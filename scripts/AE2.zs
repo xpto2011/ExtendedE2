@@ -164,4 +164,3 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:control
 	<thermalfoundation:upgrade:35>, <ore:crystalOsmium>, <ore:crystalOsmium>,
 	<refinedstorage:controller>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>,
 	<appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <enderio:item_alloy_endergy_nugget:3>, <ore:gearVibrant>]);
-
