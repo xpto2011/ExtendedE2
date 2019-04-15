@@ -20,6 +20,11 @@ recipes.removeShapeless(<ore:ingotBronze> * 4, [<ore:ingotTin>, <ore:ingotCopper
 #Ores Information
 #mods.jei.JEI.addDescription(<ore:ingotMithril>, "Found in cold planets.", "Can also be a product of sieving gravel");
 
+#Extra Planets 'Selective Desintegration'
+<ore:ingotZinc>.remove(<extraplanets:tier8_items:5>);
+<ore:ingotPlatinum>.remove(<extraplanets:tier11_items:5>);
+<ore:ingotMagnesium>.remove(<extraplanets:tier6_items:5>);
+
 #Railcraft Fixes
 recipes.removeByRecipeName("railcraft:ingot#1$1");
 recipes.removeByRecipeName("railcraft:ingot#1$2");

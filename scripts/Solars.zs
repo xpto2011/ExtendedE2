@@ -27,7 +27,6 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<solarflux:photovoltaic_cell_3>
 mods.thermalexpansion.InductionSmelter.addRecipe(<solarflux:photovoltaic_cell_4>, <solarflux:photovoltaic_cell_3>, <enderio:block_solar_panel:2>, 64000);
 mods.thermalexpansion.InductionSmelter.addRecipe(<solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_4>, <enderio:block_solar_panel:3>, 96000);
 
-
 recipes.addShaped(<solarflux:solar_panel_1>, [
 	[<solarflux:mirror>, <solarflux:mirror>, <solarflux:mirror>],
 	[<ore:ingotElectrotineAlloy>, <ore:gearLead>, <ore:ingotElectrotineAlloy>], 
@@ -55,11 +54,11 @@ recipes.addShaped(<solarflux:solar_panel_5>, [
 
 recipes.addShaped(<solarflux:solar_panel_6>, [
 	[<solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>, <solarflux:photovoltaic_cell_5>],
-	[<solarflux:solar_panel_5>, <draconicevolution:draconic_core>, <solarflux:solar_panel_5>],
+	[<solarflux:solar_panel_5>, <em:bannicio:2>, <solarflux:solar_panel_5>],
 	[<solarflux:solar_panel_5>, <rftools:machine_base>, <solarflux:solar_panel_5>]]);
 
 recipes.addShaped(<solarflux:solar_panel_7>, [
-	[<environmentaltech:solar_cell_kyronite>, <environmentaltech:solar_cell_kyronite>, <environmentaltech:solar_cell_kyronite>],
+	[<environmentaltech:solar_cell_pladium>, <environmentaltech:solar_cell_pladium>, <environmentaltech:solar_cell_pladium>],
 	[<solarflux:solar_panel_6>, <em:bannicio:5>, <solarflux:solar_panel_6>],
 	[<solarflux:solar_panel_6>, <rftools:machine_base>, <solarflux:solar_panel_6>]]);
 

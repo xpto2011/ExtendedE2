@@ -99,6 +99,10 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:148>, <th
 	<liquid:ender> * 4000, 20000);
 
 
+#Add Primal Mana
+mods.tconstruct.Alloy.addRecipe(<liquid:mana> * 250, [<liquid:mirion> * 18, <liquid:osgloglas> * 18, <liquid:draconium> * 288, <liquid:experience> * 1280]);
+
+
 #EnderIO
 #Change 'normal' casings
 mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material>, <enderio:item_material:51>);

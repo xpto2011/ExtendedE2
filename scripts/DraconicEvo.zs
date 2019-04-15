@@ -1,6 +1,9 @@
 #Extended Extreme Modpack Remake (EX^2)
 #Crafted by xpto2011
 
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+
 #recipes.remove(<draconicevolution:draconic_staff_of_power>);
 #recipes.remove(<draconicevolution:draconic_boots>);
 #recipes.remove(<draconicevolution:draconic_leggs>);
@@ -15,7 +18,7 @@ recipes.remove(<draconicevolution:wyvern_legs>);
 recipes.remove(<draconicevolution:wyvern_chest>);
 recipes.remove(<draconicevolution:wyvern_helm>);
 recipes.remove(<draconicevolution:chaotic_core>);
-recipes.remove(<draconicevolution:awakened_core>);
+#recipes.remove(<draconicevolution:awakened_core>);
 recipes.remove(<draconicevolution:wyvern_core>);
 recipes.remove(<draconicevolution:draconic_core>);
 recipes.remove(<draconicevolution:fusion_crafting_core>);
@@ -43,24 +46,39 @@ recipes.addShaped(<draconicevolution:chaotic_core>, [
 	[<ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <ore:ingotCosmicNeutronium>], 
 	[<draconicevolution:awakened_core>, <draconicevolution:chaos_shard>, <draconicevolution:awakened_core>], 
 	[<ore:ingotCosmicNeutronium>, <draconicevolution:awakened_core>, <ore:ingotCosmicNeutronium>]]);
-mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>, [
-	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>], 
-	[<draconicevolution:wyvern_core>, <minecraft:nether_star>, <draconicevolution:wyvern_core>], 
-	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>]]);
-#efab
-recipes.addShaped(<draconicevolution:draconic_core>, [
+#mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:awakened_core>, [
+#	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>], 
+#	[<draconicevolution:wyvern_core>, <minecraft:nether_star>, <draconicevolution:wyvern_core>], 
+#	[<ore:ingotDraconiumAwakened>, <draconicevolution:wyvern_core>, <ore:ingotDraconiumAwakened>]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:draconic_core>, [
 	[<ore:ingotDraconium>, <ore:ingotTitanium>, <ore:ingotDraconium>], 
-	[<ore:ingotTitanium>, <extraplanets:tier8_items:6>, <ore:ingotTitanium>], 
+	[<environmentaltech:litherite_crystal>, <extraplanets:tier8_items:6>, <ore:ingotBlutonium>], 
 	[<ore:ingotDraconium>,<ore:ingotTitanium>, <ore:ingotDraconium>]]);
-mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>, [
-	[<ore:ingotCrystallinePinkSlime>, <draconicevolution:draconic_core>, <ore:ingotDraconium>], 
-	[<draconicevolution:draconic_core>, <minecraft:nether_star>, <draconicevolution:draconic_core>], 
-	[<ore:ingotDraconium>, <draconicevolution:draconic_core>, <ore:ingotCrystallinePinkSlime>]]);
+#mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:wyvern_core>, [
+#	[<ore:ingotMelodicAlloy>, <draconicevolution:draconic_core>, <ore:ingotDraconium>], 
+#	[<draconicevolution:draconic_core>, <minecraft:nether_star>, <draconicevolution:draconic_core>], 
+#	[<ore:ingotDraconium>, <draconicevolution:draconic_core>, <ore:ingotMelodicAlloy>]]);
+
+var wyverncore = RecipeBuilder.newBuilder("drac_wyverncore", "itemfluidcombiner", 40);
+    wyverncore.addItemInput(<draconicevolution:draconic_core> * 4);
+	wyverncore.addItemInput(<draconicevolution:draconium_block>);
+	wyverncore.addItemInput(<ore:ingotMelodicAlloy>, 2);
+	wyverncore.addItemInput(<minecraft:shulker_shell> * 2);
+	wyverncore.addItemInput(<ore:blockKyronite>);
+	wyverncore.addItemInput(<minecraft:nether_star>);
+	wyverncore.addFluidInput(<liquid:mana> * 500);
+    wyverncore.addItemOutput(<draconicevolution:wyvern_core>);
+    wyverncore.addEnergyPerTickInput(64000);
+    wyverncore.build();
 
 recipes.addShaped(<draconicevolution:infused_obsidian>, [
 	[<minecraft:blaze_powder>, <minecraft:obsidian>, <minecraft:blaze_powder>], 
 	[<minecraft:obsidian>, <draconicevolution:draconium_dust>, <minecraft:obsidian>], 
 	[<minecraft:blaze_powder>, <minecraft:obsidian>, <minecraft:blaze_powder>]]);
+
+recipes.remove(<draconicevolution:wyvern_energy_core>);
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:wyvern_energy_core>, <draconicevolution:draconic_core>, <liquid:redstone> * 10000, 100000);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <draconicevolution:fusion_crafting_core>, [
 	[<draconicevolution:draconium_block:1>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <draconicevolution:draconium_block:1>], 
@@ -68,6 +86,10 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <draconicevolution:fusion_craft
 	[<thermalfoundation:glass_alloy:6>, <ore:ingotStellarAlloy>, <minecraft:nether_star>, <ore:ingotStellarAlloy>, <thermalfoundation:glass_alloy:6>], 
 	[<thermalfoundation:glass_alloy:6>, <draconicevolution:draconic_core>, <ore:ingotStellarAlloy>, <draconicevolution:draconic_core>, <thermalfoundation:glass_alloy:6>], 
 	[<draconicevolution:draconium_block:1>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:glass_alloy:6>, <draconicevolution:draconium_block:1>]]);  
+
+#Double Dragon Hearts
+mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:dragon_heart> * 2, 2000000000, <draconicevolution:dragon_heart>, [<minecraft:end_crystal>, <minecraft:end_crystal>, <minecraft:end_crystal>, <minecraft:end_crystal>, <minecraft:dragon_egg>]);
+
 
 #Extreme Crafting
 #Draconic Staff of Power

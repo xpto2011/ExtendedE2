@@ -55,12 +55,11 @@ recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_ic
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_death"}), [[<minecraft:bone> | <minecraft:rotten_flesh>, <minecraft:bone> | <minecraft:rotten_flesh>, <minecraft:bone> | <minecraft:rotten_flesh>], [<minecraft:bone> | <minecraft:rotten_flesh>, <minecraft:spider_eye>, <minecraft:bone> | <minecraft:rotten_flesh>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}), [[<extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>, <extrautils2:decorativesolidwood:1>], [<extrautils2:decorativesolidwood:1>, <minecraft:enchanting_table:*>, <extrautils2:decorativesolidwood:1>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
 recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}), [[<minecraft:slime_ball:*>, <minecraft:slime_ball:*>, <minecraft:slime_ball:*>], [<minecraft:slime_ball:*>, <minecraft:slime:*>, <minecraft:slime_ball:*>], [<ore:dustRedstone>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <ore:dustRedstone>]]);
-
+recipes.addShaped(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), [[null, <minecraft:enchanted_book:*>, null], [<ore:gemDiamond>, <extrautils2:machine>, <ore:gemDiamond>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 
 #Remove Angel Rings -> Loot Chest only
 recipes.remove(<extrautils2:chickenring:*>);
 recipes.remove(<extrautils2:angelring:*>);
-
 	
 #Ranged Pumps
 recipes.remove(<rangedpumps:pump>);
